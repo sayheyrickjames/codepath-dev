@@ -33,7 +33,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="uNS-fa-0LA" kind="modal" id="ixS-R2-cn7"/>
+                                    <segue destination="uNS-fa-0LA" kind="modal" identifier="signInSegue" animates="NO" id="ixS-R2-cn7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -93,7 +93,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="lYL-Mm-mVQ" kind="modal" id="cOP-Re-4js"/>
+                                    <segue destination="lYL-Mm-mVQ" kind="modal" identifier="" animates="NO" id="cOP-Re-4js"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UAz-oY-ael">
@@ -103,7 +103,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="uNS-fa-0LA" kind="modal" id="ZAq-iy-JOO"/>
+                                    <segue destination="uNS-fa-0LA" kind="modal" identifier="signInSegue" animates="NO" id="ZAq-iy-JOO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -117,7 +117,7 @@
         <!--Create Account Root View Controller-->
         <scene sceneID="ohn-Hx-tdA">
             <objects>
-                <viewController id="jOR-Io-aLq" customClass="CreateAccountRootViewController" customModule="week_1_homework_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jOR-Io-aLq" customClass="CreateAccountRootViewController" customModule="week_1_homework_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JIT-5j-uNj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -133,7 +133,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="qRf-0x-qr7" kind="push" id="RBq-oC-SKq"/>
+                                    <segue destination="qRf-0x-qr7" kind="push" identifier="signInSegue" id="RBq-oC-SKq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3Yw-Gt-GKd">
@@ -143,7 +143,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="QS6-Tb-Gx2" kind="push" id="LN7-SP-5Y7"/>
+                                    <segue destination="QS6-Tb-Gx2" kind="push" identifier="createAccountSegue" id="LN7-SP-5Y7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -158,7 +158,7 @@
         <!--Navigation Controller-->
         <scene sceneID="TEH-cP-O4u">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lYL-Mm-mVQ" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="lYL-Mm-mVQ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Kd6-w3-eSn"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="VIw-vO-6EA">
@@ -177,7 +177,7 @@
         <!--Create Account View Controller-->
         <scene sceneID="zmH-MT-gds">
             <objects>
-                <viewController id="QS6-Tb-Gx2" customClass="CreateAccountViewController" sceneMemberID="viewController">
+                <viewController id="QS6-Tb-Gx2" customClass="CreateAccountViewController" customModule="week_1_homework_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7hj-rw-SCo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -199,7 +199,7 @@
         <scene sceneID="vke-Jm-Ybb">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hag-sy-eiw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="qRf-0x-qr7" customClass="SignInViewController" sceneMemberID="viewController">
+                <viewController id="qRf-0x-qr7" customClass="SignInViewController" customModule="week_1_homework_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S8y-zm-YKR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -219,7 +219,7 @@
         <!--Sign In Root View Controller-->
         <scene sceneID="7AS-zn-phq">
             <objects>
-                <viewController id="JCD-DB-gcO" customClass="SignInRootViewController" sceneMemberID="viewController">
+                <viewController id="JCD-DB-gcO" customClass="SignInRootViewController" customModule="week_1_homework_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G8t-i1-pGc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -235,7 +235,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="qRf-0x-qr7" kind="push" id="c3h-JV-8Hi"/>
+                                    <segue destination="qRf-0x-qr7" kind="push" identifier="signInSegue" id="c3h-JV-8Hi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="L7G-m7-Sjr">
@@ -245,7 +245,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="QS6-Tb-Gx2" kind="push" id="hL6-Dm-51J"/>
+                                    <segue destination="QS6-Tb-Gx2" kind="push" identifier="" id="hL6-Dm-51J"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -260,7 +260,7 @@
         <!--Navigation Controller-->
         <scene sceneID="zlg-DA-qEL">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uNS-fa-0LA" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="uNS-fa-0LA" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="jSU-iK-LrX"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nZo-eg-y1n">
@@ -276,8 +276,30 @@
             </objects>
             <point key="canvasLocation" x="-2436" y="-4059"/>
         </scene>
+        <!--Create Account View Controller-->
+        <scene sceneID="cP2-rb-YOA">
+            <objects>
+                <viewController id="BRn-Vr-4XU" customClass="CreateAccountViewController" customModule="week_1_homework_dropbox" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4MG-ga-Z6d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="create1" id="E2F-W1-tWg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lQe-vY-e19"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ttU-QQ-MU2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1104" y="-4776"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="create1" width="320" height="568"/>
         <image name="create_account" width="320" height="568"/>
         <image name="logged_out" width="320" height="568"/>
         <image name="sign_in1" width="320" height="568"/>
@@ -292,7 +314,7 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="ixS-R2-cn7"/>
-        <segue reference="hL6-Dm-51J"/>
         <segue reference="RBq-oC-SKq"/>
+        <segue reference="LN7-SP-5Y7"/>
     </inferredMetricsTieBreakers>
 </document>
