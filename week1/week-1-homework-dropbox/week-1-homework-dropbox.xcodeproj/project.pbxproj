@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC38F8341AFC746400E15705 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38F8331AFC746400E15705 /* CreateAccountRootViewController.swift */; };
 		BCD0AF811AFB4F9000B8D3B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0AF801AFB4F9000B8D3B6 /* AppDelegate.swift */; };
 		BCD0AF831AFB4F9000B8D3B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0AF821AFB4F9000B8D3B6 /* ViewController.swift */; };
 		BCD0AF861AFB4F9000B8D3B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD0AF841AFB4F9000B8D3B6 /* Main.storyboard */; };
@@ -27,7 +26,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BC38F8331AFC746400E15705 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		BCD0AF7B1AFB4F9000B8D3B6 /* week-1-homework-dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "week-1-homework-dropbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD0AF7F1AFB4F9000B8D3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCD0AF801AFB4F9000B8D3B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				BCD0AF821AFB4F9000B8D3B6 /* ViewController.swift */,
-				BC38F8331AFC746400E15705 /* CreateAccountRootViewController.swift */,
 			);
 			name = "view-controllers";
 			sourceTree = "<group>";
@@ -223,7 +220,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC38F8341AFC746400E15705 /* CreateAccountRootViewController.swift in Sources */,
 				BCD0AF831AFB4F9000B8D3B6 /* ViewController.swift in Sources */,
 				BCD0AF811AFB4F9000B8D3B6 /* AppDelegate.swift in Sources */,
 			);
