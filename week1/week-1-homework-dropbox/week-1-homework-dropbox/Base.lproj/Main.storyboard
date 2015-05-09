@@ -815,23 +815,35 @@
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="88Y-xc-B3K" customClass="SettingsViewController" customModule="week_1_homework_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fAl-CK-efD">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="vrA-s6-lA6">
-                                <rect key="frame" x="0.0" y="65" width="320" height="454"/>
+                                <rect key="frame" x="0.0" y="65" width="320" height="886"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" multipleTouchEnabled="YES" contentMode="center" image="settings" id="aEp-Cv-lZ2">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4O7-Om-0x6">
+                                        <rect key="frame" x="0.0" y="687" width="320" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="lYL-Mm-mVQ" kind="modal" animates="NO" id="FuO-ku-Wsz"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="Tpd-YG-giP"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="1000"/>
                     <connections>
                         <outlet property="imageView" destination="aEp-Cv-lZ2" id="hCo-cW-Kzq"/>
                         <outlet property="scrollView" destination="vrA-s6-lA6" id="Xnp-FQ-Eif"/>
@@ -1006,23 +1018,35 @@
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="MYI-h6-ogX" customClass="SettingsViewController" customModule="week_1_homework_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cmf-1X-uQl">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="ESQ-1r-WsE">
-                                <rect key="frame" x="0.0" y="65" width="320" height="454"/>
+                                <rect key="frame" x="0.0" y="65" width="320" height="886"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" multipleTouchEnabled="YES" contentMode="center" image="settings" id="6Gy-jb-Lxh">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oso-SV-CHg">
+                                        <rect key="frame" x="0.0" y="688" width="320" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="uNS-fa-0LA" kind="modal" animates="NO" id="t1P-lY-oNf"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="4HN-gJ-Uh2"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="1000"/>
                     <connections>
                         <outlet property="imageView" destination="6Gy-jb-Lxh" id="VZP-ca-Ld8"/>
                         <outlet property="scrollView" destination="ESQ-1r-WsE" id="C9m-JK-ItG"/>
@@ -1191,9 +1215,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="WZT-G3-HoS"/>
         <segue reference="LN7-SP-5Y7"/>
-        <segue reference="ZAq-iy-JOO"/>
+        <segue reference="FuO-ku-Wsz"/>
         <segue reference="RBq-oC-SKq"/>
         <segue reference="Mqf-UL-Ii9"/>
         <segue reference="ept-qu-vLy"/>
+        <segue reference="t1P-lY-oNf"/>
     </inferredMetricsTieBreakers>
 </document>
