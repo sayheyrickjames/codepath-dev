@@ -10,6 +10,10 @@ import UIKit
 
 class SignInViewController: UIViewController {
 
+    @IBAction func welcomeBackButton(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
