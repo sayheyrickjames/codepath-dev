@@ -889,7 +889,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="empty_files" id="EUi-MI-CQb">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="existing_files" id="EUi-MI-CQb">
                                 <rect key="frame" x="0.0" y="65" width="320" height="454"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
@@ -929,7 +929,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="empty_photos" id="rsX-pR-4Fb">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="existing_photos" id="rsX-pR-4Fb">
                                 <rect key="frame" x="0.0" y="65" width="320" height="454"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
@@ -1101,7 +1101,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="welcomeBackButton:" destination="qRf-0x-qr7" eventType="touchUpInside" id="INb-ft-NTA"/>
+                                    <action selector="welcomeBackButton:" destination="ChC-J5-cvf" eventType="touchUpInside" id="fVj-af-YCY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1167,6 +1167,8 @@
         <image name="empty_favorites" width="320" height="454"/>
         <image name="empty_files" width="320" height="454"/>
         <image name="empty_photos" width="320" height="454"/>
+        <image name="existing_files" width="320" height="454"/>
+        <image name="existing_photos" width="320" height="725"/>
         <image name="favorites_tab" width="30" height="30"/>
         <image name="files_tab" width="30" height="30"/>
         <image name="logged_out" width="320" height="568"/>
@@ -1192,6 +1194,6 @@
         <segue reference="ZAq-iy-JOO"/>
         <segue reference="RBq-oC-SKq"/>
         <segue reference="Mqf-UL-Ii9"/>
-        <segue reference="xA9-HN-Drl"/>
+        <segue reference="ept-qu-vLy"/>
     </inferredMetricsTieBreakers>
 </document>
