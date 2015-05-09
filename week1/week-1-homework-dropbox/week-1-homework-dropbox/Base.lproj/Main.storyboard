@@ -1091,6 +1091,7 @@
                                 </state>
                                 <connections>
                                     <action selector="welcomeBackButton:" destination="QS6-Tb-Gx2" eventType="touchUpInside" id="dnf-Ov-jFm"/>
+                                    <segue destination="xL1-Cv-JEB" kind="modal" id="ept-qu-vLy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ES3-MY-0JB">
@@ -1124,6 +1125,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GPs-VC-cnl">
+                                <rect key="frame" x="9" y="463" width="302" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="welcomeBackButton:" destination="QS6-Tb-Gx2" eventType="touchUpInside" id="opm-2g-33h"/>
+                                    <segue destination="xL1-Cv-JEB" kind="modal" id="xA9-HN-Drl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tBQ-sT-dy2">
+                                <rect key="frame" x="9" y="517" width="302" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelButton:" destination="rT7-da-sS5" eventType="touchUpInside" id="K4m-4g-cz1"/>
+                                    <action selector="welcomeBackButton:" destination="QS6-Tb-Gx2" eventType="touchUpInside" id="bAy-Xg-rxL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1169,5 +1192,6 @@
         <segue reference="ZAq-iy-JOO"/>
         <segue reference="RBq-oC-SKq"/>
         <segue reference="Mqf-UL-Ii9"/>
+        <segue reference="xA9-HN-Drl"/>
     </inferredMetricsTieBreakers>
 </document>
