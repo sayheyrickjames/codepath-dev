@@ -218,7 +218,6 @@
         <!--Sign In View Controller-->
         <scene sceneID="vke-Jm-Ybb">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hag-sy-eiw" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="qRf-0x-qr7" customClass="SignInViewController" customModule="week_1_homework_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S8y-zm-YKR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -233,6 +232,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="r4c-QZ-Cx8"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hag-sy-eiw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1552" y="-4059"/>
         </scene>
@@ -534,6 +534,16 @@
                                     <segue destination="STm-zG-TAz" kind="modal" animates="NO" id="WZT-G3-HoS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="za3-Bm-Kx8">
+                                <rect key="frame" x="244" y="526" width="70" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="STm-zG-TAz" kind="modal" id="D3S-bh-kNZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -650,7 +660,7 @@
             </objects>
             <point key="canvasLocation" x="482" y="-4110"/>
         </scene>
-        <!--View Controller-->
+        <!--Files-->
         <scene sceneID="yfs-1I-azg">
             <objects>
                 <viewController id="KRp-pr-koy" sceneMemberID="viewController">
@@ -665,7 +675,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="1VZ-0p-pZa"/>
+                    <navigationItem key="navigationItem" title="Files" id="1VZ-0p-pZa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5S6-dV-vwj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -690,7 +700,7 @@
             </objects>
             <point key="canvasLocation" x="-572" y="-3392"/>
         </scene>
-        <!--View Controller-->
+        <!--Photos-->
         <scene sceneID="TtM-xd-xJc">
             <objects>
                 <viewController id="LQ6-Kr-2qE" sceneMemberID="viewController">
@@ -705,7 +715,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="FSB-N7-a24"/>
+                    <navigationItem key="navigationItem" title="Photos" id="FSB-N7-a24"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aT3-2m-xr0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -730,7 +740,7 @@
             </objects>
             <point key="canvasLocation" x="264" y="-3392"/>
         </scene>
-        <!--View Controller-->
+        <!--Favorites-->
         <scene sceneID="Ila-RE-ca4">
             <objects>
                 <viewController id="BLR-8m-1sn" sceneMemberID="viewController">
@@ -745,7 +755,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="xVw-Yo-u7c"/>
+                    <navigationItem key="navigationItem" title="Favorites" id="xVw-Yo-u7c"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7rc-HU-wlg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -770,19 +780,19 @@
             </objects>
             <point key="canvasLocation" x="1096" y="-3392"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings-->
         <scene sceneID="pX8-DZ-UfL">
             <objects>
-                <viewController id="88Y-xc-B3K" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="88Y-xc-B3K" customClass="SettingsViewController" customModule="week_1_homework_dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fAl-CK-efD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="QXi-bt-65Y">
-                                <rect key="frame" x="0.0" y="64" width="320" height="568"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="vrA-s6-lA6">
+                                <rect key="frame" x="0.0" y="65" width="320" height="454"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="settings" id="DhL-9m-5kw">
+                                    <imageView opaque="NO" multipleTouchEnabled="YES" contentMode="center" image="settings" id="aEp-Cv-lZ2">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
@@ -791,7 +801,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Tpd-YG-giP"/>
+                    <navigationItem key="navigationItem" title="Settings" id="Tpd-YG-giP"/>
+                    <connections>
+                        <outlet property="imageView" destination="aEp-Cv-lZ2" id="hCo-cW-Kzq"/>
+                        <outlet property="scrollView" destination="vrA-s6-lA6" id="Xnp-FQ-Eif"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iwh-lF-3LJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -845,7 +859,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="hL6-Dm-51J"/>
+        <segue reference="WZT-G3-HoS"/>
+        <segue reference="LN7-SP-5Y7"/>
         <segue reference="ixS-R2-cn7"/>
         <segue reference="RBq-oC-SKq"/>
     </inferredMetricsTieBreakers>

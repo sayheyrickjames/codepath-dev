@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC236A231AFDAD8D006A1591 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC236A221AFDAD8D006A1591 /* SettingsViewController.swift */; };
 		BC38F8371AFC81E000E15705 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38F8361AFC81E000E15705 /* CreateAccountViewController.swift */; };
 		BC38F8391AFC824E00E15705 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38F8381AFC824E00E15705 /* SignInViewController.swift */; };
 		BC38F83D1AFC8B5200E15705 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38F83C1AFC8B5200E15705 /* CreateAccountRootViewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC236A221AFDAD8D006A1591 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BC38F8361AFC81E000E15705 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		BC38F8381AFC824E00E15705 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		BC38F83C1AFC8B5200E15705 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				BC38F8381AFC824E00E15705 /* SignInViewController.swift */,
 				BC38F83C1AFC8B5200E15705 /* CreateAccountRootViewController.swift */,
 				BC38F83E1AFC8BB200E15705 /* SignInRootViewController.swift */,
+				BC236A221AFDAD8D006A1591 /* SettingsViewController.swift */,
 			);
 			name = "view-controllers";
 			sourceTree = "<group>";
@@ -98,10 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				BCD0AF801AFB4F9000B8D3B6 /* AppDelegate.swift */,
-				BC38F8351AFC748800E15705 /* view-controllers */,
 				BCD0AF841AFB4F9000B8D3B6 /* Main.storyboard */,
-				BCD0AF871AFB4F9000B8D3B6 /* Images.xcassets */,
 				BCD0AF891AFB4F9000B8D3B6 /* LaunchScreen.xib */,
+				BCD0AF871AFB4F9000B8D3B6 /* Images.xcassets */,
+				BC38F8351AFC748800E15705 /* view-controllers */,
 				BCD0AF7E1AFB4F9000B8D3B6 /* Supporting Files */,
 			);
 			path = "week-1-homework-dropbox";
@@ -234,6 +237,7 @@
 			files = (
 				BC38F83D1AFC8B5200E15705 /* CreateAccountRootViewController.swift in Sources */,
 				BC38F8391AFC824E00E15705 /* SignInViewController.swift in Sources */,
+				BC236A231AFDAD8D006A1591 /* SettingsViewController.swift in Sources */,
 				BC38F83F1AFC8BB200E15705 /* SignInRootViewController.swift in Sources */,
 				BC38F8371AFC81E000E15705 /* CreateAccountViewController.swift in Sources */,
 				BCD0AF831AFB4F9000B8D3B6 /* ViewController.swift in Sources */,
