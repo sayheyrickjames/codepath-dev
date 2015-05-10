@@ -174,14 +174,47 @@
                                     <action selector="welcomeBackButton:" destination="QS6-Tb-Gx2" eventType="touchUpInside" id="f13-W6-Cw4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ajn-KC-t9M">
-                                <rect key="frame" x="120" y="84" width="200" height="165"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="ReP-mA-86P">
+                                <rect key="frame" x="110" y="129" width="200" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="7nz-oN-MTz">
+                                <rect key="frame" x="0.0" y="350" width="320" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92941176469999998" green="0.94117647059999998" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="2Et-A7-G7h">
+                                <rect key="frame" x="110" y="84" width="200" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="lms-CP-JcE">
+                                <rect key="frame" x="69" y="174" width="235" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="lb7-h1-Z4S">
+                                <rect key="frame" x="110" y="219" width="194" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VIP-AW-zjR">
+                                <rect key="frame" x="0.0" y="257" width="320" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BRn-Vr-4XU" kind="modal" animates="NO" id="nnY-2F-MWm"/>
+                                    <segue destination="BRn-Vr-4XU" kind="modal" animates="NO" id="1Jz-Ey-Ims"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -212,7 +245,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="welcomeBackButton:" destination="qRf-0x-qr7" eventType="touchUpInside" id="M36-vX-6eI"/>
+                                    <action selector="welcomeBackButton:" destination="qRf-0x-qr7" eventType="touchUpInside" id="LTA-cY-obY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="R90-w3-jwS">
@@ -236,7 +269,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="f6p-zo-mD8">
-                                <rect key="frame" x="112" y="153" width="198" height="30"/>
+                                <rect key="frame" x="100" y="153" width="210" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -248,7 +281,7 @@
                                 <color key="backgroundColor" red="0.92941176470588238" green="0.94117647058823528" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="h5C-GB-z9Q">
-                                <rect key="frame" x="112" y="104" width="198" height="30"/>
+                                <rect key="frame" x="70" y="104" width="240" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -261,7 +294,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hag-sy-eiw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3208" y="-3903"/>
+            <point key="canvasLocation" x="-2328" y="-2351"/>
         </scene>
         <!--Sign In Root View Controller-->
         <scene sceneID="7AS-zn-phq">
@@ -302,7 +335,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LZN-oZ-QdU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3614" y="-3903"/>
+            <point key="canvasLocation" x="-2734" y="-2351"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zlg-DA-qEL">
@@ -321,7 +354,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pdC-hy-Sab" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4032" y="-3903"/>
+            <point key="canvasLocation" x="-3152" y="-2351"/>
         </scene>
         <!--Create Account View Controller-->
         <scene sceneID="cP2-rb-YOA">
@@ -354,6 +387,16 @@
                                 </state>
                                 <connections>
                                     <segue destination="TFd-yl-xzV" kind="modal" animates="NO" id="tsk-YZ-E2g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="B0Z-y0-eYb">
+                                <rect key="frame" x="0.0" y="350" width="320" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TFd-yl-xzV" kind="modal" animates="NO" id="YCW-25-oka"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -398,6 +441,16 @@
                                     <segue destination="lpH-Kv-U0s" kind="modal" animates="NO" id="rCp-wa-hOV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Omh-Xe-gQD">
+                                <rect key="frame" x="0.0" y="350" width="320" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lpH-Kv-U0s" kind="modal" animates="NO" id="U0B-Bi-hVK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -438,6 +491,16 @@
                                 </state>
                                 <connections>
                                     <segue destination="sx2-6O-uax" kind="modal" animates="NO" id="6hr-7Z-VZ9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Oea-JU-rtu">
+                                <rect key="frame" x="0.0" y="350" width="320" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sx2-6O-uax" kind="modal" animates="NO" id="1az-wf-PJ8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -607,7 +670,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bBd-gX-VYg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="16" y="-3975"/>
+            <point key="canvasLocation" x="19" y="-4003"/>
         </scene>
         <!--Files-->
         <scene sceneID="yfs-1I-azg">
@@ -628,7 +691,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5S6-dV-vwj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-646" y="-3257"/>
+            <point key="canvasLocation" x="-643" y="-3285"/>
         </scene>
         <!--Files-->
         <scene sceneID="PdH-4z-Rqp">
@@ -647,7 +710,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fdu-ob-P4p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1038" y="-3257"/>
+            <point key="canvasLocation" x="-1035" y="-3285"/>
         </scene>
         <!--Photos-->
         <scene sceneID="TtM-xd-xJc">
@@ -668,7 +731,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aT3-2m-xr0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="182" y="-3257"/>
+            <point key="canvasLocation" x="185" y="-3285"/>
         </scene>
         <!--Photos-->
         <scene sceneID="8bk-4i-3kn">
@@ -687,7 +750,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fob-dO-ae3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-202" y="-3257"/>
+            <point key="canvasLocation" x="-199" y="-3285"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="Ila-RE-ca4">
@@ -708,7 +771,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7rc-HU-wlg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="998" y="-3257"/>
+            <point key="canvasLocation" x="1001" y="-3285"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="6u5-ON-iQx">
@@ -727,7 +790,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C6e-Ip-7Xa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="630" y="-3257"/>
+            <point key="canvasLocation" x="633" y="-3285"/>
         </scene>
         <!--Settings-->
         <scene sceneID="pX8-DZ-UfL">
@@ -770,7 +833,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iwh-lF-3LJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1934" y="-3257"/>
+            <point key="canvasLocation" x="1937" y="-3285"/>
         </scene>
         <!--Settings-->
         <scene sceneID="ZgD-KW-F6H">
@@ -789,7 +852,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cOe-Iw-pas" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1462" y="-3257"/>
+            <point key="canvasLocation" x="1465" y="-3285"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bau-LG-Oc0">
@@ -810,7 +873,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bSf-HX-O6q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2332" y="-2909"/>
+            <point key="canvasLocation" x="-1452" y="-1357"/>
         </scene>
         <!--Files-->
         <scene sceneID="HBe-eE-y1C">
@@ -831,7 +894,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HEt-XR-KAt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2994" y="-2191"/>
+            <point key="canvasLocation" x="-2506" y="99"/>
         </scene>
         <!--Files-->
         <scene sceneID="eFR-FT-9ch">
@@ -850,7 +913,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JuQ-X3-zlP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3386" y="-2191"/>
+            <point key="canvasLocation" x="-2506" y="-639"/>
         </scene>
         <!--Photos-->
         <scene sceneID="KGh-3i-IQf">
@@ -871,7 +934,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tt5-hN-m1B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2166" y="-2191"/>
+            <point key="canvasLocation" x="-1286" y="-639"/>
         </scene>
         <!--Photos-->
         <scene sceneID="wuU-WS-u5L">
@@ -890,7 +953,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EaP-2h-OJi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2550" y="-2191"/>
+            <point key="canvasLocation" x="-1670" y="-639"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="oRP-8O-tea">
@@ -911,7 +974,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A9U-dR-Gem" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1350" y="-2191"/>
+            <point key="canvasLocation" x="-470" y="-639"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="HjR-Vt-Lv3">
@@ -930,7 +993,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4qC-aL-YVK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1718" y="-2191"/>
+            <point key="canvasLocation" x="-838" y="-639"/>
         </scene>
         <!--Settings-->
         <scene sceneID="XvX-rD-ElO">
@@ -973,7 +1036,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VlA-OH-UzI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-429" y="-1967"/>
+            <point key="canvasLocation" x="451" y="-415"/>
         </scene>
         <!--Settings-->
         <scene sceneID="aRS-m3-q1t">
@@ -992,7 +1055,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xch-Zl-jpA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-886" y="-2191"/>
+            <point key="canvasLocation" x="-6" y="-639"/>
         </scene>
         <!--Sign In View Controller-->
         <scene sceneID="zYD-no-yKS">
@@ -1054,7 +1117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d6l-mh-a9q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2784" y="-3903"/>
+            <point key="canvasLocation" x="-1904" y="-2351"/>
         </scene>
         <!--Sign In View Controller-->
         <scene sceneID="wgF-Qu-2UN">
@@ -1097,7 +1160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VWe-La-Wqa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2344" y="-3903"/>
+            <point key="canvasLocation" x="-1464" y="-2351"/>
         </scene>
     </scenes>
     <resources>
@@ -1133,10 +1196,13 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="WZT-G3-HoS"/>
-        <segue reference="LN7-SP-5Y7"/>
+        <segue reference="1az-wf-PJ8"/>
+        <segue reference="U0B-Bi-hVK"/>
+        <segue reference="YCW-25-oka"/>
+        <segue reference="hL6-Dm-51J"/>
+        <segue reference="ixS-R2-cn7"/>
         <segue reference="RBq-oC-SKq"/>
         <segue reference="yDU-vg-HkS"/>
-        <segue reference="ept-qu-vLy"/>
-        <segue reference="t1P-lY-oNf"/>
+        <segue reference="xA9-HN-Drl"/>
     </inferredMetricsTieBreakers>
 </document>
