@@ -11,6 +11,9 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1c65862... Merge branch 'week-1-homework'
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -20,6 +23,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Gff-K4-ngJ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="561"/>
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> week-1-homework
@@ -1269,64 +1273,39 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Z2B-kN-XE6">
                                 <rect key="frame" x="0.0" y="64" width="320" height="451"/>
+=======
+>>>>>>> parent of 1c65862... Merge branch 'week-1-homework'
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Uic-Dd-ZUk" kind="push" id="GfR-Rh-Z4y"/>
+                                    <segue destination="Nbg-wZ-AnI" kind="modal" animates="NO" id="dYz-yH-sla"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="codepath" id="VMV-44-1k7"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hvf-1v-QfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1721" y="99"/>
+            <point key="canvasLocation" x="-244" y="338"/>
         </scene>
-        <!--codepath-dev-->
-        <scene sceneID="qs0-z6-xBP">
+        <!--View Controller-->
+        <scene sceneID="9L7-7V-wuY">
             <objects>
-                <viewController id="Uic-Dd-ZUk" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6sa-iA-CRY">
+                <viewController id="Nbg-wZ-AnI" customClass="ViewController" customModule="week_1_homework_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dNh-KD-Dr7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="favorites4" id="BMI-y3-UaK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome2" id="a7V-lH-pC8">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lt5-Z9-QVW">
-                                <rect key="frame" x="0.0" y="64" width="320" height="451"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Q6A-dB-CIV" kind="push" id="hl7-N4-nFd"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="codepath-dev" id="7Vb-Jh-SVN"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ou2-gL-ahF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1316" y="99"/>
-        </scene>
-        <!--codepath-dev-->
-        <scene sceneID="4RR-vc-5B8">
-            <objects>
-                <viewController id="Q6A-dB-CIV" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="I2W-gR-aec">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="favorites5" id="HaJ-bF-8oZ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qSf-xN-1fA">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+<<<<<<< HEAD
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4Qw-na-Nca">
@@ -1335,6 +1314,8 @@
 >>>>>>> week-1-homework
 =======
 >>>>>>> week-1-homework
+=======
+>>>>>>> parent of 1c65862... Merge branch 'week-1-homework'
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1342,6 +1323,9 @@
                                 <connections>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1c65862... Merge branch 'week-1-homework'
                                     <segue destination="Sbc-Wz-nwQ" kind="modal" animates="NO" id="muu-9N-OYw"/>
                                 </connections>
                             </button>
@@ -1375,6 +1359,7 @@
         </scene>
     </scenes>
     <resources>
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> week-1-homework
@@ -1450,6 +1435,8 @@
 >>>>>>> week-1-homework
 =======
 >>>>>>> week-1-homework
+=======
+>>>>>>> parent of 1c65862... Merge branch 'week-1-homework'
         <image name="welcome1" width="320" height="568"/>
         <image name="welcome2" width="320" height="568"/>
         <image name="welcome3" width="320" height="568"/>
@@ -1459,15 +1446,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="WZT-G3-HoS"/>
-        <segue reference="1az-wf-PJ8"/>
-        <segue reference="U0B-Bi-hVK"/>
-        <segue reference="YCW-25-oka"/>
-        <segue reference="hL6-Dm-51J"/>
-        <segue reference="ixS-R2-cn7"/>
-        <segue reference="RBq-oC-SKq"/>
-        <segue reference="ept-qu-vLy"/>
-        <segue reference="Mqf-UL-Ii9"/>
-    </inferredMetricsTieBreakers>
 </document>
