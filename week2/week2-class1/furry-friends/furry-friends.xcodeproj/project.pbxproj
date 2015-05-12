@@ -13,6 +13,8 @@
 		BC199B681B0199B40014A048 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC199B671B0199B40014A048 /* Images.xcassets */; };
 		BC199B6B1B0199B40014A048 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC199B691B0199B40014A048 /* LaunchScreen.xib */; };
 		BC199B771B0199B40014A048 /* furry_friendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC199B761B0199B40014A048 /* furry_friendsTests.swift */; };
+		BC199B831B019AA90014A048 /* RabbitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC199B821B019AA90014A048 /* RabbitViewController.swift */; };
+		BC199B851B01AB200014A048 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC199B841B01AB200014A048 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		BC199B701B0199B40014A048 /* furry-friendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "furry-friendsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC199B751B0199B40014A048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC199B761B0199B40014A048 /* furry_friendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = furry_friendsTests.swift; sourceTree = "<group>"; };
+		BC199B821B019AA90014A048 /* RabbitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RabbitViewController.swift; sourceTree = "<group>"; };
+		BC199B841B01AB200014A048 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		BC199B5D1B0199B40014A048 /* furry-friends */ = {
 			isa = PBXGroup;
 			children = (
+				BC199B811B019A1E0014A048 /* view-controllers */,
 				BC199B601B0199B40014A048 /* AppDelegate.swift */,
 				BC199B621B0199B40014A048 /* ViewController.swift */,
 				BC199B641B0199B40014A048 /* Main.storyboard */,
@@ -110,6 +115,15 @@
 				BC199B751B0199B40014A048 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC199B811B019A1E0014A048 /* view-controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC199B821B019AA90014A048 /* RabbitViewController.swift */,
+				BC199B841B01AB200014A048 /* LoginViewController.swift */,
+			);
+			name = "view-controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC199B851B01AB200014A048 /* LoginViewController.swift in Sources */,
+				BC199B831B019AA90014A048 /* RabbitViewController.swift in Sources */,
 				BC199B631B0199B40014A048 /* ViewController.swift in Sources */,
 				BC199B611B0199B40014A048 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +425,7 @@
 				BC199B7C1B0199B40014A048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC199B7D1B0199B40014A048 /* Build configuration list for PBXNativeTarget "furry-friendsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				BC199B7F1B0199B40014A048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
