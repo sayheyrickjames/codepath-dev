@@ -16,6 +16,7 @@
 		BC65AE7A1B01D60E004EF4E4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC65AE791B01D60E004EF4E4 /* Common.swift */; };
 		BC65AE7D1B01DCDE004EF4E4 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC65AE7C1B01DCDE004EF4E4 /* IntroViewController.swift */; };
 		BCD3E0D11B03179900449BCA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3E0D01B03179900449BCA /* SignInViewController.swift */; };
+		BCD3E0D31B033DAB00449BCA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3E0D21B033DAB00449BCA /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		BC65AE791B01D60E004EF4E4 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		BC65AE7C1B01DCDE004EF4E4 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		BCD3E0D01B03179900449BCA /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		BCD3E0D21B033DAB00449BCA /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				BC65AE5B1B01D446004EF4E4 /* ViewController.swift */,
 				BC65AE7C1B01DCDE004EF4E4 /* IntroViewController.swift */,
 				BCD3E0D01B03179900449BCA /* SignInViewController.swift */,
+				BCD3E0D21B033DAB00449BCA /* WelcomeViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				BC65AE5C1B01D446004EF4E4 /* ViewController.swift in Sources */,
 				BC65AE7A1B01D60E004EF4E4 /* Common.swift in Sources */,
 				BC65AE5A1B01D446004EF4E4 /* AppDelegate.swift in Sources */,
+				BCD3E0D31B033DAB00449BCA /* WelcomeViewController.swift in Sources */,
 				BCD3E0D11B03179900449BCA /* SignInViewController.swift in Sources */,
 				BC65AE7D1B01DCDE004EF4E4 /* IntroViewController.swift in Sources */,
 			);
