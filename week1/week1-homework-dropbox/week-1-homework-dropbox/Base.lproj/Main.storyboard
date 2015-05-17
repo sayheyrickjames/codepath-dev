@@ -1363,14 +1363,14 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="LN7-SP-5Y7"/>
-        <segue reference="wqV-0H-44V"/>
         <segue reference="RBq-oC-SKq"/>
-        <segue reference="Mqf-UL-Ii9"/>
-        <segue reference="ept-qu-vLy"/>
+        <segue reference="LN7-SP-5Y7"/>
         <segue reference="YCW-25-oka"/>
         <segue reference="U0B-Bi-hVK"/>
         <segue reference="1az-wf-PJ8"/>
         <segue reference="WZT-G3-HoS"/>
+        <segue reference="mFr-vP-DH4"/>
+        <segue reference="Mqf-UL-Ii9"/>
+        <segue reference="ept-qu-vLy"/>
     </inferredMetricsTieBreakers>
 </document>

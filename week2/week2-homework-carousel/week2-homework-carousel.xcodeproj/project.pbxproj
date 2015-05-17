@@ -11,7 +11,6 @@
 		BC65AE5C1B01D446004EF4E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC65AE5B1B01D446004EF4E4 /* ViewController.swift */; };
 		BC65AE5F1B01D446004EF4E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC65AE5D1B01D446004EF4E4 /* Main.storyboard */; };
 		BC65AE611B01D446004EF4E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC65AE601B01D446004EF4E4 /* Images.xcassets */; };
-		BC65AE641B01D446004EF4E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC65AE621B01D446004EF4E4 /* LaunchScreen.xib */; };
 		BC65AE701B01D446004EF4E4 /* week2_homework_carouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC65AE6F1B01D446004EF4E4 /* week2_homework_carouselTests.swift */; };
 		BC65AE7A1B01D60E004EF4E4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC65AE791B01D60E004EF4E4 /* Common.swift */; };
 		BC65AE7D1B01DCDE004EF4E4 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC65AE7C1B01DCDE004EF4E4 /* IntroViewController.swift */; };
@@ -40,7 +39,6 @@
 		BC65AE5B1B01D446004EF4E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC65AE5E1B01D446004EF4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC65AE601B01D446004EF4E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BC65AE631B01D446004EF4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BC65AE691B01D446004EF4E4 /* week2-homework-carouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "week2-homework-carouselTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC65AE6E1B01D446004EF4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC65AE6F1B01D446004EF4E4 /* week2_homework_carouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week2_homework_carouselTests.swift; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 				BC65AE791B01D60E004EF4E4 /* Common.swift */,
 				BC65AE5D1B01D446004EF4E4 /* Main.storyboard */,
 				BC65AE601B01D446004EF4E4 /* Images.xcassets */,
-				BC65AE621B01D446004EF4E4 /* LaunchScreen.xib */,
 				BC65AE571B01D446004EF4E4 /* Supporting Files */,
 			);
 			path = "week2-homework-carousel";
@@ -225,7 +222,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC65AE5F1B01D446004EF4E4 /* Main.storyboard in Resources */,
-				BC65AE641B01D446004EF4E4 /* LaunchScreen.xib in Resources */,
 				BC65AE611B01D446004EF4E4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,14 +278,6 @@
 				BC65AE5E1B01D446004EF4E4 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BC65AE621B01D446004EF4E4 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC65AE631B01D446004EF4E4 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -380,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "week2-homework-carousel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -390,6 +379,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "week2-homework-carousel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
