@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC65AE531B01D446004EF4E4"
+               BlueprintIdentifier = "BCB56A271B085307004266D2"
                BuildableName = "week2-homework-carousel.app"
                BlueprintName = "week2-homework-carousel"
                ReferencedContainer = "container:week2-homework-carousel.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC65AE681B01D446004EF4E4"
+               BlueprintIdentifier = "BCB56A3C1B085307004266D2"
                BuildableName = "week2-homework-carouselTests.xctest"
                BlueprintName = "week2-homework-carouselTests"
                ReferencedContainer = "container:week2-homework-carousel.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC65AE681B01D446004EF4E4"
+               BlueprintIdentifier = "BCB56A3C1B085307004266D2"
                BuildableName = "week2-homework-carouselTests.xctest"
                BlueprintName = "week2-homework-carouselTests"
                ReferencedContainer = "container:week2-homework-carousel.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC65AE531B01D446004EF4E4"
+            BlueprintIdentifier = "BCB56A271B085307004266D2"
             BuildableName = "week2-homework-carousel.app"
             BlueprintName = "week2-homework-carousel"
             ReferencedContainer = "container:week2-homework-carousel.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC65AE531B01D446004EF4E4"
+            BlueprintIdentifier = "BCB56A271B085307004266D2"
             BuildableName = "week2-homework-carousel.app"
             BlueprintName = "week2-homework-carousel"
             ReferencedContainer = "container:week2-homework-carousel.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC65AE531B01D446004EF4E4"
+            BlueprintIdentifier = "BCB56A271B085307004266D2"
             BuildableName = "week2-homework-carousel.app"
             BlueprintName = "week2-homework-carousel"
             ReferencedContainer = "container:week2-homework-carousel.xcodeproj">
