@@ -11,7 +11,6 @@
 		BCB56A301B085307004266D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB56A2F1B085307004266D2 /* ViewController.swift */; };
 		BCB56A331B085307004266D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB56A311B085307004266D2 /* Main.storyboard */; };
 		BCB56A351B085307004266D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB56A341B085307004266D2 /* Images.xcassets */; };
-		BCB56A381B085307004266D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB56A361B085307004266D2 /* LaunchScreen.xib */; };
 		BCB56A441B085307004266D2 /* week2_homework_carouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB56A431B085307004266D2 /* week2_homework_carouselTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		BCB56A2F1B085307004266D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCB56A321B085307004266D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCB56A341B085307004266D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BCB56A371B085307004266D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BCB56A3D1B085307004266D2 /* week2-homework-carouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "week2-homework-carouselTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB56A421B085307004266D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCB56A431B085307004266D2 /* week2_homework_carouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week2_homework_carouselTests.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				BCB56A2F1B085307004266D2 /* ViewController.swift */,
 				BCB56A311B085307004266D2 /* Main.storyboard */,
 				BCB56A341B085307004266D2 /* Images.xcassets */,
-				BCB56A361B085307004266D2 /* LaunchScreen.xib */,
 				BCB56A2B1B085307004266D2 /* Supporting Files */,
 			);
 			path = "week2-homework-carousel";
@@ -193,7 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCB56A331B085307004266D2 /* Main.storyboard in Resources */,
-				BCB56A381B085307004266D2 /* LaunchScreen.xib in Resources */,
 				BCB56A351B085307004266D2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +238,6 @@
 				BCB56A321B085307004266D2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BCB56A361B085307004266D2 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BCB56A371B085307004266D2 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -340,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "week2-homework-carousel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "week2-homework-carousel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
