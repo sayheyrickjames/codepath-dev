@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC3563871B099C0500D93F58 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3563861B099C0500D93F58 /* TermsViewController.swift */; };
 		BC65AE5A1B01D446004EF4E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC65AE591B01D446004EF4E4 /* AppDelegate.swift */; };
 		BC65AE5C1B01D446004EF4E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC65AE5B1B01D446004EF4E4 /* ViewController.swift */; };
 		BC65AE5F1B01D446004EF4E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC65AE5D1B01D446004EF4E4 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC3563861B099C0500D93F58 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		BC65AE541B01D446004EF4E4 /* week2-homework-carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "week2-homework-carousel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC65AE581B01D446004EF4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC65AE591B01D446004EF4E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				BCBB0D811B04250200BAF515 /* SettingsViewController.swift */,
 				BCBB0D831B04252C00BAF515 /* ConversationsViewController.swift */,
 				BC6EB2F81B05C9730019CF0B /* CreateAccountViewController.swift */,
+				BC3563861B099C0500D93F58 /* TermsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3563871B099C0500D93F58 /* TermsViewController.swift in Sources */,
 				BC6EB2F91B05C9730019CF0B /* CreateAccountViewController.swift in Sources */,
 				BC65AE5C1B01D446004EF4E4 /* ViewController.swift in Sources */,
 				BCBB0D801B0424C400BAF515 /* ImageTimelineViewController.swift in Sources */,
