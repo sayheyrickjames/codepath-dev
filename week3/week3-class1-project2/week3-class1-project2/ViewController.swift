@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  week3-class1-canvas
+//  week3-class1-project2
 //
 //  Created by Rick James! Chatas on 5/18/15.
 //  Copyright (c) 2015 SayHey. All rights reserved.
@@ -23,8 +23,3 @@ class ViewController: UIViewController {
 
 }
 
-var location = sender.locationInView(view)
-var translation = sender.translationInView(view)
-var velocity = sender.velocityInView(view)
-
-var scale = sender.scale

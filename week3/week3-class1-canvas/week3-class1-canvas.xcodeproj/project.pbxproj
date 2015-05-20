@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC3598261B0AD0F70096DC4E /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3598251B0AD0F70096DC4E /* CanvasViewController.swift */; };
 		BC3C07551B0AC2CD007D3AF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3C07541B0AC2CD007D3AF2 /* AppDelegate.swift */; };
 		BC3C07571B0AC2CD007D3AF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3C07561B0AC2CD007D3AF2 /* ViewController.swift */; };
 		BC3C075A1B0AC2CD007D3AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3C07581B0AC2CD007D3AF2 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC3598251B0AD0F70096DC4E /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 		BC3C074F1B0AC2CD007D3AF2 /* week3-class1-canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "week3-class1-canvas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3C07531B0AC2CD007D3AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC3C07541B0AC2CD007D3AF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC3598241B0AD0A60096DC4E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC3598251B0AD0F70096DC4E /* CanvasViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		BC3C07461B0AC2CD007D3AF2 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 		BC3C07511B0AC2CD007D3AF2 /* week3-class1-canvas */ = {
 			isa = PBXGroup;
 			children = (
+				BC3598241B0AD0A60096DC4E /* ViewControllers */,
 				BC3C07541B0AC2CD007D3AF2 /* AppDelegate.swift */,
 				BC3C07561B0AC2CD007D3AF2 /* ViewController.swift */,
 				BC3C07581B0AC2CD007D3AF2 /* Main.storyboard */,
@@ -213,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC3C07571B0AC2CD007D3AF2 /* ViewController.swift in Sources */,
+				BC3598261B0AD0F70096DC4E /* CanvasViewController.swift in Sources */,
 				BC3C07551B0AC2CD007D3AF2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +421,7 @@
 				BC3C07701B0AC2CD007D3AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC3C07711B0AC2CD007D3AF2 /* Build configuration list for PBXNativeTarget "week3-class1-canvasTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				BC3C07731B0AC2CD007D3AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
