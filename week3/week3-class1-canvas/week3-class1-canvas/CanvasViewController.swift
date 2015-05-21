@@ -28,7 +28,7 @@ class CanvasViewController: UIViewController {
                 
         }
         
-    }
+UIView.    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
