@@ -44,14 +44,13 @@ class MailboxViewController: UIViewController {
     
     // variable set
     
-    var originalContainerViewCenter: CGPoint!
-    var originalContainerViewCenterX: CGFloat!
     var originalMessageCenter: CGPoint!
     var originalFeedCenter: CGPoint!
     var originalLaterIconCenter: CGPoint!
     var originalListIconCenter: CGPoint!
     var originalDeleteIconCenter: CGPoint!
     var originalArchiveIconCenter: CGPoint!
+    var originalContainerViewCenterX: CGFloat!
     
     override func viewDidLoad() {
         super.viewDidLoad()
