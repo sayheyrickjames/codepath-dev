@@ -10,11 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "week3-homework-mailbox/MailboxViewController.swift"
-            timestampString = "453888902.375179"
+            timestampString = "453975909.712407"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57">
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "MailboxViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
