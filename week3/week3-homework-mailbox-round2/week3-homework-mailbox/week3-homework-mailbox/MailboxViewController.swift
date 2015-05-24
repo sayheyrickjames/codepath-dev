@@ -240,12 +240,13 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
             self.listIcon.center.x = self.messageImageView.center.x + self.messageImageView.frame.width/2 + self.gutter
         })
     }
-    
+
     
     @IBAction func didPressResetButton(sender: AnyObject) {
         messageImageView.center.x = view.frame.width/2
         feedImageView.center = originalFeedCenter
     }
+    
     
     @IBAction func didPressMenuButton(sender: AnyObject) {
         if (containerView.center.x == view.frame.width/2) {
@@ -253,9 +254,9 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
             UIView.animateWithDuration(0.3, animations: { () -> Void in
                 self.containerView.center.x += 280
             })
-            
-        }
-            
+
+    }
+       
         else {
             UIView.animateWithDuration(0.3, animations: { () -> Void in
                 self.containerView.center.x = self.view.frame.width/2
