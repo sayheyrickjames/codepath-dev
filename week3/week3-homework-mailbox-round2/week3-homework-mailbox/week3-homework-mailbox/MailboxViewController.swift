@@ -23,7 +23,6 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var rescheduleImageView: UIImageView!
     @IBOutlet weak var listImageView: UIImageView!
-
     
     
     // starting center points
@@ -72,7 +71,7 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
     }
     
     // pan gesture recognizer
- 
+    
     @IBAction func didPanMessage(sender: UIPanGestureRecognizer) {
         
         var location = sender.locationInView(view)
@@ -240,7 +239,7 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
             self.listIcon.center.x = self.messageImageView.center.x + self.messageImageView.frame.width/2 + self.gutter
         })
     }
-
+    
     
     @IBAction func didPressResetButton(sender: AnyObject) {
         messageImageView.center.x = view.frame.width/2
@@ -254,9 +253,9 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
             UIView.animateWithDuration(0.3, animations: { () -> Void in
                 self.containerView.center.x += 280
             })
-
-    }
-       
+            
+        }
+            
         else {
             UIView.animateWithDuration(0.3, animations: { () -> Void in
                 self.containerView.center.x = self.view.frame.width/2
@@ -276,7 +275,7 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
             
             originalContainerViewCenterX = containerView.center.x
         }
-
+            
         else if (sender.state == UIGestureRecognizerState.Changed) {
             containerView.center.x = originalContainerViewCenterX + translation.x
         }
