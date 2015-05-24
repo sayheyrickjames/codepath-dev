@@ -7,9 +7,8 @@
 //
 
 import UIKit
-import MessageUI
 
-class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRecognizerDelegate, UIAlertViewDelegate, MFMailComposeViewControllerDelegate {
+class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRecognizerDelegate, UIAlertViewDelegate {
     
     // all outlets
     @IBOutlet weak var feedImageView: UIImageView!
@@ -23,14 +22,14 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
     // messageContainerView for bg color
     @IBOutlet weak var messageContainerView: UIView!
     
-    // messageImageView is the message image that's sliding
+    // messageImageView is the message image used for sliding
     @IBOutlet weak var messageImageView: UIImageView!
     
     // other views
     @IBOutlet weak var rescheduleImageView: UIImageView!
     @IBOutlet weak var listImageView: UIImageView!
     
-    // all starting center points
+    // starting center points
     var originalMessageCenter: CGPoint!
     var originalLaterIconCenter: CGPoint!
     var originalArchiveIconCenter:CGPoint!
@@ -48,10 +47,10 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
         // scroll settings
         scrollView.frame.size = view.bounds.size
         scrollView.contentSize = CGSize(width: 320, height: 1432)
-        //		messageContainerView.backgroundColor = UIColor.grayColor()
+        
         originalMessageCenter = messageImageView.center
         
-        //initial values
+        // starting values
         listIcon.alpha = 0
         deleteIcon.alpha = 0
         
@@ -68,8 +67,6 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
         
         originalContainerViewCenterX = 160
         
-        
-        
     }
     
     override func didReceiveMemoryWarning() {
@@ -77,7 +74,7 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
         // Dispose of any resources that can be recreated.
     }
     
-    // PAN GESTURE RECOGNIZER
+    // pan gesture recognizer
     @IBAction func didPanMessage(sender: UIPanGestureRecognizer) {
         
         var location = sender.locationInView(view)
@@ -89,37 +86,35 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
         containerView.addGestureRecognizer(edgeGesture)
         
         
-        // PAN BEGAN
+        // pan began
         if (sender.state == UIGestureRecognizerState.Began){
+            
             //set the starting point of the message to its current position
             originalMessageCenter = messageImageView.center
-            
             
             archiveIcon.alpha = 0
             deleteIcon.alpha = 0
             listIcon.alpha = 0
             laterIcon.alpha = 0
             
-            
-            
         }
-            // PAN CHANGED
+            
+        // pan changed
         else if (sender.state == UIGestureRecognizerState.Changed) {
-            // as the message is dragged, make the center it's most recent position plus the horizontal difference you drag
+
             messageImageView.center = CGPointMake(originalMessageCenter.x + translation.x, originalMessageCenter.y)
             
             
-            // short swipe left for later
+                // short swipe left for later
             if (messageImageView.center.x < 100 && messageImageView.center.x > -40) {
                 messageContainerView.backgroundColor = UIColor(red: 255/255, green: 211/255, blue: 32/255, alpha: 1)
                 deleteIcon.alpha = 0
                 listIcon.alpha = 0
                 laterIcon.alpha = 1
                 laterIcon.center = CGPointMake(messageImageView.frame.width + gutter + translation.x, messageImageView.center.y)
-                //println("\(laterIcon.center)")
-                
                 
             }
+                
                 // long swipe left for list
             else if (messageImageView.center.x <= -40) {
                 messageContainerView.backgroundColor = UIColor(red: 216/255, green: 166/255, blue: 117/255, alpha: 1)
@@ -128,8 +123,8 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
                 listIcon.alpha = 1
                 listIcon.center = CGPointMake(messageImageView.frame.width + gutter + translation.x, messageImageView.center.y)
                 
-                
             }
+                
                 // short swipe right to archive
             else if (messageImageView.center.x > 220 && messageImageView.center.x < 360) {
                 messageContainerView.backgroundColor = UIColor(red: 98/255, green: 216/255, blue: 98/255, alpha: 1)
@@ -138,27 +133,22 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
                 archiveIcon.alpha = 1
                 archiveIcon.center = CGPointMake(translation.x - gutter, messageImageView.center.y)
                 
-                
             }
+                
                 // long swipe right to delete
             else if (messageImageView.center.x >= 360) {
                 messageContainerView.backgroundColor = UIColor(red: 239/255, green: 84/255, blue: 12/255, alpha: 1)
                 archiveIcon.alpha = 0
                 deleteIcon.alpha = 1
                 deleteIcon.center = CGPointMake(translation.x - gutter, messageImageView.center.y)
+                
             }
-                
-                
+
                 // otherwise keep the background gray
             else {
                 
-                // ??? Use velocity here to change opacity?
-                
-                
-                
                 laterIcon.alpha = -translation.x / 60
                 archiveIcon.alpha = translation.x / 60
-                
                 
                 messageContainerView.backgroundColor = UIColor(red: 191/255, green: 191/255, blue: 191/255, alpha: 1)
                 laterIcon.center = CGPointMake(originalLaterIconCenter.x, originalLaterIconCenter.y)
@@ -168,18 +158,18 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
             
             
         }
-            // PAN ENDED
+            // pan ended
         else if (sender.state == UIGestureRecognizerState.Ended) {
-            // later
+
             if (messageImageView.center.x < 100 && messageImageView.center.x > -40){
                 UIView.animateWithDuration(0.5, animations: { () -> Void in
                     self.messageImageView.center.x = -self.view.frame.width
                     self.laterIcon.center.x = self.messageImageView.center.x + self.messageImageView.frame.width/2 + self.gutter
                     self.rescheduleImageView.alpha = 1
-                    
                 })
                 
             }
+                
                 
                 // list
             else if (messageImageView.center.x <= -40) {
@@ -191,6 +181,7 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
                 })
                 
             }
+                
                 
                 // archive
             else if (messageImageView.center.x > 220 && messageImageView.center.x < 360) {
@@ -205,8 +196,6 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
                         })
                         
                 })
-                
-                
                 
                 
             }
@@ -252,8 +241,6 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
             self.listImageView.alpha = 0
             self.messageImageView.center.x = self.view.frame.width/2
             self.listIcon.center.x = self.messageImageView.center.x + self.messageImageView.frame.width/2 + self.gutter
-            
-            
         })
     }
     
@@ -265,16 +252,15 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
     @IBAction func didPressMenuButton(sender: AnyObject) {
         if (containerView.center.x == view.frame.width/2) {
             
-            
             UIView.animateWithDuration(0.3, animations: { () -> Void in
                 self.containerView.center.x += 280
             })
             
         }
+            
         else {
             UIView.animateWithDuration(0.3, animations: { () -> Void in
                 self.containerView.center.x = self.view.frame.width/2
-                
             })
         }
         
@@ -282,40 +268,32 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
     }
     
     
-    // EDGE PAN WHEN GESTURE RECOGNIZER WAS ADDED PROGRAMATICALLY
+    // edge pan gesture recognizer
     
     func onEdgePan(sender:UIScreenEdgePanGestureRecognizer) {
         var translation = sender.translationInView(view)
-        //		var location = sender.locationInView(view)
-        //		println("edge pan")
         
         if (sender.state == UIGestureRecognizerState.Began){
-            //			println("edge pan began")
             
             originalContainerViewCenterX = containerView.center.x
-            
-            //			if (self.containerView.center.x <= 160) {
-            //			self.containerView.center = CGPointMake(self.containerView.center.x + translation.x, self.containerView.center.y)
-            //			}
         }
+
         else if (sender.state == UIGestureRecognizerState.Changed) {
-            //			println("edge pan changed")
             containerView.center.x = originalContainerViewCenterX + translation.x
         }
             
         else if (sender.state == UIGestureRecognizerState.Ended) {
-            //			println("edge pan ended")
+            
             if (translation.x < 100) {
                 UIView.animateWithDuration(0.5, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1, options: nil, animations: { () -> Void in
                     self.containerView.center.x = 160
                     }, completion: { (Bool) -> Void in
-                        //
                 })
+                
             } else if (translation.x >= 100) {
                 UIView.animateWithDuration(0.5, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1, options: nil, animations: { () -> Void in
                     self.containerView.center.x = 440
                     }, completion: { (Bool) -> Void in
-                        //
                 })
                 
             }
