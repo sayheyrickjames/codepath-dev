@@ -81,13 +81,39 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mGd-CE-6w5">
+                                <rect key="frame" x="266" y="16" width="46" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1432"/>
+                    <connections>
+                        <outlet property="archiveIcon" destination="90W-7B-Bnk" id="XGm-O0-Xmn"/>
+                        <outlet property="containerView" destination="ELT-qh-doH" id="wjD-Hg-Tcj"/>
+                        <outlet property="deleteIcon" destination="GIz-2u-iet" id="O2d-F6-Nio"/>
+                        <outlet property="feedImageView" destination="Yx5-6h-X3Y" id="waP-KT-0Yd"/>
+                        <outlet property="laterIcon" destination="AOo-5u-laN" id="KCh-wH-uDs"/>
+                        <outlet property="listIcon" destination="B1M-AZ-hE4" id="spN-zD-u2l"/>
+                        <outlet property="listImageView" destination="q12-uG-aSu" id="B97-ZN-xeK"/>
+                        <outlet property="messageContainerView" destination="Uiz-Dl-lcf" id="5Pb-ti-kV6"/>
+                        <outlet property="messageImageView" destination="CdL-Mr-zVd" id="LM2-c5-nUC"/>
+                        <outlet property="rescheduleImageView" destination="wov-iL-DRS" id="6x9-K1-VCP"/>
+                        <outlet property="scrollView" destination="6kE-3b-xy0" id="T0i-a2-6vx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YBe-TW-7Ga" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="lKg-XW-dch">
+                    <connections>
+                        <action selector="didPanMessage:" destination="stJ-pS-9Yq" id="bdK-bV-Sxb"/>
+                        <outlet property="delegate" destination="Uiz-Dl-lcf" id="lix-9r-UD5"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="628" y="-222"/>
         </scene>
