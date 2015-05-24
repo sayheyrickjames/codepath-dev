@@ -229,9 +229,8 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
             self.messageImageView.center.x = self.view.frame.width/2
             self.laterIcon.center.x = self.messageImageView.center.x + self.messageImageView.frame.width/2 + self.gutter
         })
-
     }
-
+    
     
     @IBAction func didTapListPane(sender: UITapGestureRecognizer) {
         self.archiveIcon.alpha = 0
@@ -241,6 +240,7 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
             self.listIcon.center.x = self.messageImageView.center.x + self.messageImageView.frame.width/2 + self.gutter
         })
     }
+    
     
     @IBAction func didPressResetButton(sender: AnyObject) {
         messageImageView.center.x = view.frame.width/2
