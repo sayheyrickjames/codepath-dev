@@ -16,8 +16,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="1432"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="nav" id="J4X-Mc-jra">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Qze-NC-p5r">
-                                        <rect key="frame" x="0.0" y="33" width="320" height="1367"/>
+                                        <rect key="frame" x="0.0" y="32" width="320" height="1367"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="help_label" id="k3y-v3-M4C">
@@ -65,18 +69,6 @@
                                             </imageView>
                                         </subviews>
                                     </scrollView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="nav" id="J4X-Mc-jra">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="reschedule" id="p7I-2d-RFo">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="list" id="Sj3-TE-ue1">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -91,9 +83,7 @@
                         <outlet property="feedImageView" destination="u6C-5z-6Cr" id="9Xg-8q-JyG"/>
                         <outlet property="laterIcon" destination="jan-Pq-fe1" id="poe-nn-P5p"/>
                         <outlet property="listIcon" destination="LTg-Ey-Gk9" id="Aai-DE-8bK"/>
-                        <outlet property="listImageView" destination="Sj3-TE-ue1" id="aWG-VB-ssy"/>
                         <outlet property="messageContainerView" destination="z0J-ie-1Uy" id="TYf-LR-QXv"/>
-                        <outlet property="rescheduleImageView" destination="p7I-2d-RFo" id="N8A-dG-Fbb"/>
                         <outlet property="scrollView" destination="Qze-NC-p5r" id="DPn-Vy-hda"/>
                     </connections>
                 </viewController>
@@ -109,11 +99,9 @@
         <image name="feed" width="320" height="1202"/>
         <image name="help_label" width="320" height="37"/>
         <image name="later_icon" width="25" height="25"/>
-        <image name="list" width="320" height="568"/>
         <image name="list_icon" width="25" height="25"/>
         <image name="message" width="320" height="86"/>
         <image name="nav" width="320" height="65"/>
-        <image name="reschedule" width="320" height="568"/>
         <image name="search" width="320" height="42"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
