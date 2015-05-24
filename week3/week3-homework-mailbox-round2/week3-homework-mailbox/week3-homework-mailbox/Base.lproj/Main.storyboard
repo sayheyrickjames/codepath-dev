@@ -16,7 +16,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <view contentMode="scaleToFill" id="ELT-qh-doH" userLabel="ContainerView">
+                            <view contentMode="scaleToFill" id="ELT-qh-doH" userLabel="containerView">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="1432"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -48,6 +48,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="jc6-AQ-ht5" appends="YES" id="o2B-Ku-iLY"/>
+                                                        </connections>
                                                     </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -73,13 +76,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" image="reschedule" id="wov-iL-DRS">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="reschedule" id="wov-iL-DRS">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" image="list" id="q12-uG-aSu">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bVl-eW-O3F" appends="YES" id="8dz-wa-SmE"/>
+                                </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mGd-CE-6w5">
                                 <rect key="frame" x="266" y="16" width="46" height="48"/>
@@ -94,26 +101,30 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1432"/>
                     <connections>
-                        <outlet property="archiveIcon" destination="90W-7B-Bnk" id="XGm-O0-Xmn"/>
-                        <outlet property="containerView" destination="ELT-qh-doH" id="wjD-Hg-Tcj"/>
-                        <outlet property="deleteIcon" destination="GIz-2u-iet" id="O2d-F6-Nio"/>
-                        <outlet property="feedImageView" destination="Yx5-6h-X3Y" id="waP-KT-0Yd"/>
-                        <outlet property="laterIcon" destination="AOo-5u-laN" id="KCh-wH-uDs"/>
-                        <outlet property="listIcon" destination="B1M-AZ-hE4" id="spN-zD-u2l"/>
-                        <outlet property="listImageView" destination="q12-uG-aSu" id="B97-ZN-xeK"/>
-                        <outlet property="messageContainerView" destination="Uiz-Dl-lcf" id="5Pb-ti-kV6"/>
-                        <outlet property="messageImageView" destination="CdL-Mr-zVd" id="LM2-c5-nUC"/>
-                        <outlet property="rescheduleImageView" destination="wov-iL-DRS" id="6x9-K1-VCP"/>
-                        <outlet property="scrollView" destination="6kE-3b-xy0" id="T0i-a2-6vx"/>
+                        <outlet property="archiveIcon" destination="90W-7B-Bnk" id="LAJ-mb-1Zc"/>
+                        <outlet property="containerView" destination="ELT-qh-doH" id="KHd-ZJ-5dc"/>
+                        <outlet property="deleteIcon" destination="GIz-2u-iet" id="LCH-mM-4zq"/>
+                        <outlet property="feedImageView" destination="Yx5-6h-X3Y" id="Ncu-2b-l5E"/>
+                        <outlet property="laterIcon" destination="AOo-5u-laN" id="EKS-CQ-JEk"/>
+                        <outlet property="listIcon" destination="B1M-AZ-hE4" id="MAc-7h-1L2"/>
+                        <outlet property="listImageView" destination="q12-uG-aSu" id="roo-UP-rpT"/>
+                        <outlet property="messageContainerView" destination="Uiz-Dl-lcf" id="BYc-nC-Ofh"/>
+                        <outlet property="messageImageView" destination="CdL-Mr-zVd" id="cbb-Cg-KGd"/>
+                        <outlet property="rescheduleImageView" destination="wov-iL-DRS" id="tfk-PH-dSZ"/>
+                        <outlet property="scrollView" destination="6kE-3b-xy0" id="fp3-NR-GZq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YBe-TW-7Ga" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="lKg-XW-dch">
+                <panGestureRecognizer minimumNumberOfTouches="1" id="jc6-AQ-ht5" userLabel="didPanMessage">
                     <connections>
-                        <action selector="didPanMessage:" destination="stJ-pS-9Yq" id="bdK-bV-Sxb"/>
-                        <outlet property="delegate" destination="Uiz-Dl-lcf" id="lix-9r-UD5"/>
+                        <action selector="didPanMessage:" destination="stJ-pS-9Yq" id="fzA-cc-vwB"/>
                     </connections>
                 </panGestureRecognizer>
+                <tapGestureRecognizer id="bVl-eW-O3F">
+                    <connections>
+                        <action selector="didTapReschedulePane:" destination="stJ-pS-9Yq" id="fuM-od-SwP"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="628" y="-222"/>
         </scene>

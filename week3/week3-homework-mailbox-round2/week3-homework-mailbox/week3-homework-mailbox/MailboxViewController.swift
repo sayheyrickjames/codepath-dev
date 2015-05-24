@@ -17,17 +17,14 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
     @IBOutlet weak var listIcon: UIImageView!
     @IBOutlet weak var deleteIcon: UIImageView!
     @IBOutlet weak var archiveIcon: UIImageView!
-    @IBOutlet weak var containerView: UIView!
     
-    // messageContainerView for bg color
-    @IBOutlet weak var messageContainerView: UIView!
-    
-    // messageImageView is the message image used for sliding
     @IBOutlet weak var messageImageView: UIImageView!
-    
-    // other views
+    @IBOutlet weak var messageContainerView: UIView!
+    @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var rescheduleImageView: UIImageView!
     @IBOutlet weak var listImageView: UIImageView!
+
+    
     
     // starting center points
     var originalMessageCenter: CGPoint!
@@ -75,6 +72,7 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
     }
     
     // pan gesture recognizer
+ 
     @IBAction func didPanMessage(sender: UIPanGestureRecognizer) {
         
         var location = sender.locationInView(view)
@@ -99,13 +97,13 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
             
         }
             
-        // pan changed
+            // pan changed
         else if (sender.state == UIGestureRecognizerState.Changed) {
-
+            
             messageImageView.center = CGPointMake(originalMessageCenter.x + translation.x, originalMessageCenter.y)
             
             
-                // short swipe left for later
+            // short swipe left for later
             if (messageImageView.center.x < 100 && messageImageView.center.x > -40) {
                 messageContainerView.backgroundColor = UIColor(red: 255/255, green: 211/255, blue: 32/255, alpha: 1)
                 deleteIcon.alpha = 0
@@ -143,7 +141,7 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
                 deleteIcon.center = CGPointMake(translation.x - gutter, messageImageView.center.y)
                 
             }
-
+                
                 // otherwise keep the background gray
             else {
                 
@@ -160,7 +158,7 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
         }
             // pan ended
         else if (sender.state == UIGestureRecognizerState.Ended) {
-
+            
             if (messageImageView.center.x < 100 && messageImageView.center.x > -40){
                 UIView.animateWithDuration(0.5, animations: { () -> Void in
                     self.messageImageView.center.x = -self.view.frame.width
@@ -221,19 +219,19 @@ class MailboxViewController: UIViewController, UIScrollViewDelegate, UIGestureRe
             }
         }
         
-        
     }
+    
+    
     @IBAction func didTapReschedulePane(sender: UITapGestureRecognizer) {
-        println("tap")
         self.archiveIcon.alpha = 0
         UIView.animateWithDuration(0.4, animations: { () -> Void in
             self.rescheduleImageView.alpha = 0
             self.messageImageView.center.x = self.view.frame.width/2
             self.laterIcon.center.x = self.messageImageView.center.x + self.messageImageView.frame.width/2 + self.gutter
         })
-        
-        
+
     }
+
     
     @IBAction func didTapListPane(sender: UITapGestureRecognizer) {
         self.archiveIcon.alpha = 0
