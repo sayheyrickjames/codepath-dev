@@ -14,6 +14,11 @@
 		BCFA04521B159EA1005E9BA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFA04501B159EA1005E9BA1 /* LaunchScreen.xib */; };
 		BCFA045E1B159EA1005E9BA1 /* week4_homework_tumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA045D1B159EA1005E9BA1 /* week4_homework_tumblrTests.swift */; };
 		BCFA04691B159FFC005E9BA1 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA04681B159FFC005E9BA1 /* TabBarViewController.swift */; };
+		BCFA046B1B15B495005E9BA1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA046A1B15B495005E9BA1 /* HomeViewController.swift */; };
+		BCFA046D1B15BB12005E9BA1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA046C1B15BB12005E9BA1 /* SearchViewController.swift */; };
+		BCFA04711B15BD05005E9BA1 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA04701B15BD05005E9BA1 /* ComposeViewController.swift */; };
+		BCFA04731B15BD37005E9BA1 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA04721B15BD37005E9BA1 /* AccountViewController.swift */; };
+		BCFA04751B15BDBE005E9BA1 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA04741B15BDBE005E9BA1 /* TrendingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		BCFA045C1B159EA1005E9BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCFA045D1B159EA1005E9BA1 /* week4_homework_tumblrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week4_homework_tumblrTests.swift; sourceTree = "<group>"; };
 		BCFA04681B159FFC005E9BA1 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		BCFA046A1B15B495005E9BA1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BCFA046C1B15BB12005E9BA1 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BCFA04701B15BD05005E9BA1 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		BCFA04721B15BD37005E9BA1 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		BCFA04741B15BDBE005E9BA1 /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +129,11 @@
 			children = (
 				BCFA04491B159EA1005E9BA1 /* ViewController.swift */,
 				BCFA04681B159FFC005E9BA1 /* TabBarViewController.swift */,
+				BCFA046A1B15B495005E9BA1 /* HomeViewController.swift */,
+				BCFA046C1B15BB12005E9BA1 /* SearchViewController.swift */,
+				BCFA04701B15BD05005E9BA1 /* ComposeViewController.swift */,
+				BCFA04721B15BD37005E9BA1 /* AccountViewController.swift */,
+				BCFA04741B15BDBE005E9BA1 /* TrendingViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -223,9 +238,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFA046D1B15BB12005E9BA1 /* SearchViewController.swift in Sources */,
+				BCFA04751B15BDBE005E9BA1 /* TrendingViewController.swift in Sources */,
 				BCFA044A1B159EA1005E9BA1 /* ViewController.swift in Sources */,
+				BCFA04731B15BD37005E9BA1 /* AccountViewController.swift in Sources */,
 				BCFA04691B159FFC005E9BA1 /* TabBarViewController.swift in Sources */,
+				BCFA04711B15BD05005E9BA1 /* ComposeViewController.swift in Sources */,
 				BCFA04481B159EA1005E9BA1 /* AppDelegate.swift in Sources */,
+				BCFA046B1B15B495005E9BA1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
