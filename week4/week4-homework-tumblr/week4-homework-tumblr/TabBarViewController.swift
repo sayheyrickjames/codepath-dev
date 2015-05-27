@@ -9,6 +9,15 @@
 import UIKit
 
 class TabBarViewController: UIViewController {
+    
+    // outlets
+    @IBOutlet weak var contentView: UIView!
+    @IBOutlet weak var homeButton: UIButton!
+    @IBOutlet weak var searchButton: UIButton!
+    @IBOutlet weak var composeButton: UIButton!
+    @IBOutlet weak var accountButton: UIButton!
+    @IBOutlet weak var trendingButton: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

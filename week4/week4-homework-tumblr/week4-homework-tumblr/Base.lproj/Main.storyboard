@@ -12,7 +12,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="qAg-RU-FtK">
+                            <view contentMode="scaleToFill" id="qAg-RU-FtK" userLabel="contentView">
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
@@ -48,7 +48,7 @@
                                         </state>
                                         <state key="selected" image="account_selected_icon"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="REf-Ds-k1c" userLabel="accountButton">
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="REf-Ds-k1c" userLabel="trendingButton">
                                         <rect key="frame" x="277" y="6" width="35" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="trending_icon">
@@ -59,13 +59,26 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.18823529411764706" green="0.25882352941176473" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <view contentMode="scaleToFill" id="zMf-0k-Rff">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.77971357107162476" green="0.78174066543579102" blue="0.79921454191207886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="accountButton" destination="Wnq-Hh-pJa" id="zd4-6Q-zd8"/>
+                        <outlet property="composeButton" destination="PPw-YU-30K" id="b1c-oU-IIP"/>
+                        <outlet property="contentView" destination="qAg-RU-FtK" id="xVL-dk-kvo"/>
+                        <outlet property="homeButton" destination="m36-MJ-QQd" id="a5Y-IU-lmG"/>
+                        <outlet property="searchButton" destination="R7P-bD-Zxl" id="APN-0j-IH5"/>
+                        <outlet property="trendingButton" destination="REf-Ds-k1c" id="EvY-gC-k52"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162.66666666666666" y="352.15999999999997"/>
+            <point key="canvasLocation" x="162" y="352"/>
         </scene>
     </scenes>
     <resources>
