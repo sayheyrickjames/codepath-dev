@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A27D1D0F-049E-4C0C-8367-8191DED10A2D</string>
+	<string>F0A2EB5E-C5FB-4341-B9E1-E54F74958B2E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>week3-homework-mailbox</string>
+	<string>week4-class-tinder</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7A305C1D8F24FA943974B86070B784F6E675327A</key>
 		<string>https://github.com/sayheyrickjames/codepath-dev.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>week3/week3-homework-mailbox-round2/week3-homework-mailbox/week3-homework-mailbox.xcodeproj</string>
+	<string>week4/week4-class-tinder/week4-class-tinder.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7A305C1D8F24FA943974B86070B784F6E675327A</key>
-		<string>../../../../..</string>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/sayheyrickjames/codepath-dev.git</string>
