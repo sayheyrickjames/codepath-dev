@@ -66,7 +66,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="contentView" destination="Zpv-Ko-dWP" id="tI4-Sa-32x"/>
                         <outlet property="hamburgerFeedView" destination="hro-xW-S1w" id="o67-S6-Vm5"/>
                         <outlet property="hamburgerMenuView" destination="Zpv-Ko-dWP" id="4Vh-rw-hIh"/>
                     </connections>

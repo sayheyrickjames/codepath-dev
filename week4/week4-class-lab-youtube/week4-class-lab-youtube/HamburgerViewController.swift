@@ -32,13 +32,28 @@ class HamburgerViewController: UIViewController {
         
         menuViewController = storyboard.instantiateViewControllerWithIdentifier("MenuViewController") as! MenuViewController
         
-        feedViewController = storyboard.instantiateViewControllerWithIdentifier("feedViewController") as! FeedViewController
+        hamburgerMenuView.addSubview(menuViewController.view)
+        
+        feedViewController = storyboard.instantiateViewControllerWithIdentifier("FeedViewController") as! FeedViewController
+        
+        hamburgerFeedView.addSubview(feedViewController.view)
         
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
+        
+        
+//        removeChildView(currentViewController)
+//        addChildViewController(feedViewController)
+//        var hamburgerFeedView = FeedViewController.view
+//        hamburgerFeedView.frame = contentView.frame
+//        contentView.addSubview(hamburgerFeedView)
+//        MenuViewController.didMoveToParentViewController(self)
+//        currentViewController = FeedViewController
+        
     }
     
 
