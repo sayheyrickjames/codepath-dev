@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C24E0A50-0A2F-4175-A039-812FDC47716D</string>
+	<string>730135A2-B070-4487-8A51-97F749357F81</string>
 	<key>IDESourceControlProjectName</key>
-	<string>week3-lab</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7A305C1D8F24FA943974B86070B784F6E675327A</key>
 		<string>https://github.com/sayheyrickjames/codepath-dev.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>week3/week3-lab-2/week3-lab.xcodeproj</string>
+	<string>week4/week4-class-lab-youtube/week4-class-lab-youtube.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7A305C1D8F24FA943974B86070B784F6E675327A</key>
