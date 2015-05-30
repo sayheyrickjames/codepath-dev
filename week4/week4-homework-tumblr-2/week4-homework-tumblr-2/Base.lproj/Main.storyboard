@@ -23,6 +23,9 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="selected" image="home_selected_icon"/>
+                                        <connections>
+                                            <action selector="didPressHomeButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ggd-IU-pl3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3V8-lj-WXc" userLabel="searchButton">
                                         <rect key="frame" x="74" y="6" width="35" height="35"/>
@@ -31,6 +34,9 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="selected" image="search_selected_icon"/>
+                                        <connections>
+                                            <action selector="didPressSearchButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2gh-Nb-msT"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="K9h-5P-dzp" userLabel="composeButton">
                                         <rect key="frame" x="135" y="4" width="50" height="35"/>
@@ -39,6 +45,9 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="selected" image="compose_button"/>
+                                        <connections>
+                                            <segue destination="kZY-n1-UJq" kind="modal" id="AJp-L6-7kn"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cbx-Cn-llD" userLabel="accountButton">
                                         <rect key="frame" x="212" y="6" width="35" height="35"/>
@@ -47,6 +56,9 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="selected" image="account_selected_icon"/>
+                                        <connections>
+                                            <action selector="didPressAccountButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="up1-lB-4I3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Hkf-X4-Xnh" userLabel="trendingButton">
                                         <rect key="frame" x="277" y="6" width="35" height="35"/>
@@ -55,6 +67,9 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="selected" image="trending_selected_icon"/>
+                                        <connections>
+                                            <action selector="didPressTrendingButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ncA-hg-jnW"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.20000000000000001" green="0.25882352941176467" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
@@ -64,6 +79,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="explore_popup" id="0Us-Sn-faJ">
+                                <rect key="frame" x="-2" y="460" width="185" height="77"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -71,6 +90,7 @@
                         <outlet property="accountButton" destination="cbx-Cn-llD" id="QTv-On-Xjc"/>
                         <outlet property="composeButton" destination="K9h-5P-dzp" id="Afc-FK-44i"/>
                         <outlet property="contentView" destination="Mn8-e9-uqf" id="dRD-w1-PyT"/>
+                        <outlet property="explorePopup" destination="0Us-Sn-faJ" id="wsi-db-Nw8"/>
                         <outlet property="homeButton" destination="78r-OB-eq1" id="kfy-ah-Er4"/>
                         <outlet property="searchButton" destination="3V8-lj-WXc" id="prV-rC-JZW"/>
                         <outlet property="trendingButton" destination="Hkf-X4-Xnh" id="4T1-SY-yu1"/>
@@ -121,7 +141,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="trending_feed" id="eZ4-Gt-kyh">
-                                        <rect key="frame" x="0.0" y="10" width="320" height="1217"/>
+                                        <rect key="frame" x="0.0" y="20" width="320" height="1217"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                 </subviews>
@@ -138,10 +158,15 @@
         <scene sceneID="UxO-7V-1n8">
             <objects>
                 <viewController storyboardIdentifier="ComposeViewController" id="kZY-n1-UJq" customClass="ComposeViewController" customModule="week4_homework_tumblr_2" sceneMemberID="viewController">
-                    <view key="view" alpha="0.80000000000000004" contentMode="scaleToFill" id="Rlg-A3-7pF">
+                    <view key="view" contentMode="scaleToFill" id="Rlg-A3-7pF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" id="O0m-R1-bVb" userLabel="backgroundView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="515"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.25882352941176467" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="t5D-fJ-Pzy" userLabel="videoButton">
                                 <rect key="frame" x="225" y="285" width="75" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -190,21 +215,75 @@
                                 <state key="normal" image="nevermind">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="didPressNevermindButton:" destination="kZY-n1-UJq" eventType="touchUpInside" id="6Zm-Jm-GA6"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.20000000000000001" green="0.25882352941176467" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yf5-Ms-RE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="878" y="1059"/>
         </scene>
+        <!--Account View Controller-->
+        <scene sceneID="vna-Ys-tpk">
+            <objects>
+                <viewController storyboardIdentifier="AccountViewController" id="y3x-eC-zBL" customClass="AccountViewController" customModule="week4_homework_tumblr_2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="laj-Q1-R8X">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="account" id="ZhT-l1-9eC">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.25882352941176467" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GLK-6U-coh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1236" y="1059"/>
+        </scene>
+        <!--Trending View Controller-->
+        <scene sceneID="8T2-34-kaP">
+            <objects>
+                <viewController storyboardIdentifier="TrendingViewController" id="1Iy-91-bsB" customClass="TrendingViewController" customModule="week4_homework_tumblr_2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tet-2F-64C">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="IKz-xP-bEa">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="trending" id="xI0-fg-Jnf">
+                                        <rect key="frame" x="10" y="110" width="301" height="225"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99607843137254903" green="0.99607843137254903" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="trendingImageView" destination="xI0-fg-Jnf" id="n3f-9r-5B1"/>
+                        <outlet property="trendingScrollView" destination="IKz-xP-bEa" id="lcF-wB-2dS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FqN-dR-oey" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1602" y="1059"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="account" width="320" height="524"/>
         <image name="account_icon" width="35" height="35"/>
         <image name="account_selected_icon" width="35" height="35"/>
         <image name="chat_icon" width="75" height="96"/>
         <image name="compose_button" width="50" height="35"/>
+        <image name="explore_popup" width="185" height="77"/>
         <image name="home" width="320" height="524"/>
         <image name="home_icon" width="35" height="35"/>
         <image name="home_overlay" width="320" height="100"/>
@@ -217,6 +296,7 @@
         <image name="search_icon" width="35" height="35"/>
         <image name="search_selected_icon" width="35" height="35"/>
         <image name="text_icon" width="75" height="95"/>
+        <image name="trending" width="301" height="225"/>
         <image name="trending_feed" width="320" height="1217"/>
         <image name="trending_icon" width="35" height="35"/>
         <image name="trending_selected_icon" width="35" height="35"/>
