@@ -57,7 +57,7 @@
                                         <state key="selected" image="trending_selected_icon"/>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.18823529411764706" green="0.25882352941176473" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.066666666666666666" green="0.082352941176470587" blue="0.10980392156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" id="zMf-0k-Rff">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
@@ -69,7 +69,6 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.18823529411764706" green="0.25882352941176473" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="accountButton" destination="Wnq-Hh-pJa" id="zd4-6Q-zd8"/>
