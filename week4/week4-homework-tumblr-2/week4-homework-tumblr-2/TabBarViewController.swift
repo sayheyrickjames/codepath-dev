@@ -9,7 +9,7 @@
 import UIKit
 
 class TabBarViewController: UIViewController {
-
+    
     // outlets
     
     @IBOutlet weak var contentView: UIView!
@@ -19,29 +19,37 @@ class TabBarViewController: UIViewController {
     @IBOutlet weak var accountButton: UIButton!
     @IBOutlet weak var trendingButton: UIButton!
     
+    // class variables
+    
+    var homeViewController: HomeViewController!
+    var searchViewController: SearchViewController!
+    var composeViewController: ComposeViewController!
+    var accountViewController: AccountViewController!
+    var trendingViewController: TrendingViewController!
     
     
+    var currentViewController: UIViewController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    
     /*
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Get the new view controller using segue.destinationViewController.
+    // Pass the selected object to the new view controller.
     }
     */
-
+    
 }
