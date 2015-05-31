@@ -222,6 +222,7 @@
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="backgroundView" destination="O0m-R1-bVb" id="sPM-PF-1m5"/>
                         <outlet property="chatButton" destination="bmc-yu-Zkd" id="3YX-yv-xvZ"/>
                         <outlet property="linkButton" destination="qw4-b9-A2U" id="zj3-Dz-U27"/>
                         <outlet property="nevermindButton" destination="Y0C-qU-1ya" id="jnc-qX-heP"/>

@@ -19,6 +19,9 @@ class ComposeViewController: UIViewController {
     @IBOutlet weak var linkButton: UIButton!
     @IBOutlet weak var chatButton: UIButton!
     @IBOutlet weak var videoButton: UIButton!
+    @IBOutlet weak var backgroundView: UIView!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +47,11 @@ class ComposeViewController: UIViewController {
     }
     
     override func viewDidAppear (animated: Bool) {
+        
+        UIView.animateWithDuration(0.3, delay: 0, options: UIViewAnimationOptions.CurveEaseOut, animations: { () -> Void in
+            self.backgroundView.alpha = 0.95
+            }, completion: nil)
+        
         UIView.animateWithDuration(0.4, delay: 0.0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: nil, animations: { () -> Void in
             self.nevermindButton.center.y = self.view.bounds.height - self.nevermindButton.frame.height/2
             

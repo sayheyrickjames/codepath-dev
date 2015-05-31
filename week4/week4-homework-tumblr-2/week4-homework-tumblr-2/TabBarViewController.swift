@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabBarViewController: UIViewController {
+class TabBarViewController: UIViewController, UIViewControllerTransitioningDelegate {
     
     // outlets
     
@@ -30,9 +30,8 @@ class TabBarViewController: UIViewController {
     var accountViewController: AccountViewController!
     var trendingViewController: TrendingViewController!
     
-    
     var currentViewController: UIViewController!
-    
+    var selectedButton: UIButton!
     var explorePopupShowing: Bool!
     
     
@@ -43,6 +42,7 @@ class TabBarViewController: UIViewController {
         content.view.removeFromSuperview()
         content.removeFromParentViewController()
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -150,6 +150,12 @@ class TabBarViewController: UIViewController {
         explorePopup.hidden = false
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        var destinationVC = segue.destinationViewController as! UIViewController
+        destinationVC.modalPresentationStyle = UIModalPresentationStyle.Custom
+        destinationVC.transitioningDelegate = self
+        
+    }
     
     
     /*
