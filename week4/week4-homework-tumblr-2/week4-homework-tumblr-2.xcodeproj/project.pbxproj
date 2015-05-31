@@ -19,6 +19,7 @@
 		BC57E5B21B19A3A100235E12 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC57E5B11B19A3A100235E12 /* ComposeViewController.swift */; };
 		BC57E5B41B19A6C600235E12 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC57E5B31B19A6C600235E12 /* AccountViewController.swift */; };
 		BC57E5B61B19A76000235E12 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC57E5B51B19A76000235E12 /* TrendingViewController.swift */; };
+		BC6AF2EE1B1BBE970082B563 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6AF2ED1B1BBE970082B563 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		BC57E5B11B19A3A100235E12 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		BC57E5B31B19A6C600235E12 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		BC57E5B51B19A76000235E12 /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		BC6AF2ED1B1BBE970082B563 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				BC57E5B11B19A3A100235E12 /* ComposeViewController.swift */,
 				BC57E5B31B19A6C600235E12 /* AccountViewController.swift */,
 				BC57E5B51B19A76000235E12 /* TrendingViewController.swift */,
+				BC6AF2ED1B1BBE970082B563 /* Common.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				BC57E5B61B19A76000235E12 /* TrendingViewController.swift in Sources */,
 				BC57E58D1B19907200235E12 /* ViewController.swift in Sources */,
 				BC57E5B41B19A6C600235E12 /* AccountViewController.swift in Sources */,
+				BC6AF2EE1B1BBE970082B563 /* Common.swift in Sources */,
 				BC57E5AC1B19934A00235E12 /* TabBarViewController.swift in Sources */,
 				BC57E5B21B19A3A100235E12 /* ComposeViewController.swift in Sources */,
 				BC57E58B1B19907200235E12 /* AppDelegate.swift in Sources */,
@@ -441,6 +445,7 @@
 				BC57E5A61B19907300235E12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC57E5A71B19907300235E12 /* Build configuration list for PBXNativeTarget "week4-homework-tumblr-2Tests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +454,7 @@
 				BC57E5A91B19907300235E12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

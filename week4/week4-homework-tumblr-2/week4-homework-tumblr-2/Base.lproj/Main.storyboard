@@ -162,7 +162,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view alpha="0.80000000000000004" contentMode="scaleToFill" id="O0m-R1-bVb" userLabel="backgroundView">
+                            <view contentMode="scaleToFill" id="O0m-R1-bVb" userLabel="backgroundView">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="515"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.20000000000000001" green="0.25882352941176467" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
@@ -221,6 +221,15 @@
                             </button>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="chatButton" destination="bmc-yu-Zkd" id="3YX-yv-xvZ"/>
+                        <outlet property="linkButton" destination="qw4-b9-A2U" id="zj3-Dz-U27"/>
+                        <outlet property="nevermindButton" destination="Y0C-qU-1ya" id="jnc-qX-heP"/>
+                        <outlet property="photoButton" destination="65s-tT-G25" id="A2Q-DP-Spj"/>
+                        <outlet property="quoteButton" destination="3SE-ZR-gra" id="4PR-Do-fDg"/>
+                        <outlet property="textButton" destination="osG-0s-aQv" id="mDw-e9-I85"/>
+                        <outlet property="videoButton" destination="t5D-fJ-Pzy" id="mwO-td-SPZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yf5-Ms-RE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
