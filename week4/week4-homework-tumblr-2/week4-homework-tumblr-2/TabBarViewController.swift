@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabBarViewController: UIViewController {
+class TabBarViewController: UIViewController, UIViewControllerTransitioningDelegate {
     
     // outlets
     
@@ -18,7 +18,6 @@ class TabBarViewController: UIViewController {
     @IBOutlet weak var composeButton: UIButton!
     @IBOutlet weak var accountButton: UIButton!
     @IBOutlet weak var trendingButton: UIButton!
-    
     @IBOutlet weak var explorePopup: UIImageView!
     
     
@@ -30,11 +29,9 @@ class TabBarViewController: UIViewController {
     var accountViewController: AccountViewController!
     var trendingViewController: TrendingViewController!
     
-    
     var currentViewController: UIViewController!
-    
+    var selectedButton: UIButton!
     var explorePopupShowing: Bool!
-    
     
     // functions
     
@@ -43,6 +40,7 @@ class TabBarViewController: UIViewController {
         content.view.removeFromSuperview()
         content.removeFromParentViewController()
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,12 +60,11 @@ class TabBarViewController: UIViewController {
         
         explorePopup.hidden = false
         
-        UIView.animateWithDuration(1, delay: 0, options: UIViewAnimationOptions.Autoreverse | UIViewAnimationOptions.Repeat | UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
-            self.explorePopup.center.y = 498
+        UIView.animateWithDuration(1.2, delay: 0, options: UIViewAnimationOptions.Autoreverse | UIViewAnimationOptions.Repeat | UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
+            self.explorePopup.center.y = 475
             }) { (Bool) -> Void in
-                //
         }
-        
+
         
     }
     
@@ -150,6 +147,12 @@ class TabBarViewController: UIViewController {
         explorePopup.hidden = false
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        var destinationVC = segue.destinationViewController as! UIViewController
+        destinationVC.modalPresentationStyle = UIModalPresentationStyle.Custom
+        destinationVC.transitioningDelegate = self
+        
+    }
     
     
     /*
