@@ -18,7 +18,6 @@ class TabBarViewController: UIViewController, UIViewControllerTransitioningDeleg
     @IBOutlet weak var composeButton: UIButton!
     @IBOutlet weak var accountButton: UIButton!
     @IBOutlet weak var trendingButton: UIButton!
-    
     @IBOutlet weak var explorePopup: UIImageView!
     
     
@@ -33,7 +32,6 @@ class TabBarViewController: UIViewController, UIViewControllerTransitioningDeleg
     var currentViewController: UIViewController!
     var selectedButton: UIButton!
     var explorePopupShowing: Bool!
-    
     
     // functions
     
@@ -62,12 +60,11 @@ class TabBarViewController: UIViewController, UIViewControllerTransitioningDeleg
         
         explorePopup.hidden = false
         
-        UIView.animateWithDuration(1, delay: 0, options: UIViewAnimationOptions.Autoreverse | UIViewAnimationOptions.Repeat | UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
-            self.explorePopup.center.y = 498
+        UIView.animateWithDuration(1.2, delay: 0, options: UIViewAnimationOptions.Autoreverse | UIViewAnimationOptions.Repeat | UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
+            self.explorePopup.center.y = 475
             }) { (Bool) -> Void in
-                //
         }
-        
+
         
     }
     

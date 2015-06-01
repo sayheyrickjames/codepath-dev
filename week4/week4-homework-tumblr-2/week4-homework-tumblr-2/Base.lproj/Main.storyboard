@@ -90,7 +90,7 @@
                         <outlet property="accountButton" destination="cbx-Cn-llD" id="QTv-On-Xjc"/>
                         <outlet property="composeButton" destination="K9h-5P-dzp" id="Afc-FK-44i"/>
                         <outlet property="contentView" destination="Mn8-e9-uqf" id="dRD-w1-PyT"/>
-                        <outlet property="explorePopup" destination="0Us-Sn-faJ" id="wsi-db-Nw8"/>
+                        <outlet property="explorePopup" destination="0Us-Sn-faJ" id="4lY-8S-Sw5"/>
                         <outlet property="homeButton" destination="78r-OB-eq1" id="kfy-ah-Er4"/>
                         <outlet property="searchButton" destination="3V8-lj-WXc" id="prV-rC-JZW"/>
                         <outlet property="trendingButton" destination="Hkf-X4-Xnh" id="4T1-SY-yu1"/>
@@ -216,12 +216,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="DRT-BO-f7O">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="loading-1" id="kvh-BF-8gL">
+                                <rect key="frame" x="130" y="230" width="61" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="mOU-Gb-DbW">
+                                <rect key="frame" x="0.0" y="20" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="trending_feed" id="eZ4-Gt-kyh">
-                                        <rect key="frame" x="0.0" y="20" width="320" height="1217"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="trending_feed" id="xC1-p0-YIJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1217"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                 </subviews>
@@ -229,6 +233,11 @@
                         </subviews>
                         <color key="backgroundColor" red="0.20000000000000001" green="0.27058823529411763" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="loading1" destination="kvh-BF-8gL" id="GXn-62-KTG"/>
+                        <outlet property="searchScrollView" destination="mOU-Gb-DbW" id="tU2-Kx-4wX"/>
+                        <outlet property="trendingImageView" destination="xC1-p0-YIJ" id="xvr-sT-hrQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DPk-2p-5AY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -335,7 +344,7 @@
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.20000000000000001" green="0.25882352941176467" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.27058823529411763" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="accountImageView" destination="ZhT-l1-9eC" id="0y7-Xt-ggn"/>
@@ -390,6 +399,7 @@
         <image name="home_selected_icon" width="35" height="35"/>
         <image name="home_spinner" width="146" height="146"/>
         <image name="link_icon" width="75" height="95"/>
+        <image name="loading-1" width="61" height="19"/>
         <image name="login_form" width="300" height="132"/>
         <image name="nevermind" width="320" height="53"/>
         <image name="photo_icon" width="75" height="95"/>
