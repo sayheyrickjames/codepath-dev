@@ -13,6 +13,11 @@
 		BC8C70E91B1D46BC002C917F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8C70E81B1D46BC002C917F /* Images.xcassets */; };
 		BC8C70EC1B1D46BC002C917F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8C70EA1B1D46BC002C917F /* LaunchScreen.xib */; };
 		BC8C70F81B1D46BC002C917F /* custom_presentationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C70F71B1D46BC002C917F /* custom_presentationsTests.swift */; };
+		BC8C71031B1D4855002C917F /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C71011B1D4855002C917F /* BaseTransition.swift */; };
+		BC8C71041B1D4855002C917F /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C71021B1D4855002C917F /* FadeTransition.swift */; };
+		BC8C71061B1D4878002C917F /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C71051B1D4878002C917F /* RedViewController.swift */; };
+		BC8C71081B1D4883002C917F /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C71071B1D4883002C917F /* BlueViewController.swift */; };
+		BC8C710A1B1D4B06002C917F /* LightboxTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C71091B1D4B06002C917F /* LightboxTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		BC8C70F11B1D46BC002C917F /* custom-presentationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "custom-presentationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8C70F61B1D46BC002C917F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC8C70F71B1D46BC002C917F /* custom_presentationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_presentationsTests.swift; sourceTree = "<group>"; };
+		BC8C71011B1D4855002C917F /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		BC8C71021B1D4855002C917F /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		BC8C71051B1D4878002C917F /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		BC8C71071B1D4883002C917F /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		BC8C71091B1D4B06002C917F /* LightboxTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightboxTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +87,17 @@
 		BC8C70DE1B1D46BC002C917F /* custom-presentations */ = {
 			isa = PBXGroup;
 			children = (
+				BC8C71011B1D4855002C917F /* BaseTransition.swift */,
+				BC8C71021B1D4855002C917F /* FadeTransition.swift */,
 				BC8C70E11B1D46BC002C917F /* AppDelegate.swift */,
 				BC8C70E31B1D46BC002C917F /* ViewController.swift */,
 				BC8C70E51B1D46BC002C917F /* Main.storyboard */,
+				BC8C71051B1D4878002C917F /* RedViewController.swift */,
+				BC8C71071B1D4883002C917F /* BlueViewController.swift */,
 				BC8C70E81B1D46BC002C917F /* Images.xcassets */,
 				BC8C70EA1B1D46BC002C917F /* LaunchScreen.xib */,
 				BC8C70DF1B1D46BC002C917F /* Supporting Files */,
+				BC8C71091B1D4B06002C917F /* LightboxTransition.swift */,
 			);
 			path = "custom-presentations";
 			sourceTree = "<group>";
@@ -212,7 +227,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8C71061B1D4878002C917F /* RedViewController.swift in Sources */,
+				BC8C710A1B1D4B06002C917F /* LightboxTransition.swift in Sources */,
 				BC8C70E41B1D46BC002C917F /* ViewController.swift in Sources */,
+				BC8C71031B1D4855002C917F /* BaseTransition.swift in Sources */,
+				BC8C71041B1D4855002C917F /* FadeTransition.swift in Sources */,
+				BC8C71081B1D4883002C917F /* BlueViewController.swift in Sources */,
 				BC8C70E21B1D46BC002C917F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
