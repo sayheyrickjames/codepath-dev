@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="3mj-af-86w">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Requests View Controller-->
+        <scene sceneID="WY9-Qr-3aS">
+            <objects>
+                <viewController id="znU-Ws-q9L" customClass="RequestsViewController" customModule="week5_homework_facebook_photos" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S4w-bD-e1Q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nA3-Co-Wl4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J5x-JU-9fE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="554" y="-292"/>
+        </scene>
+        <!--News Feed View Controller-->
+        <scene sceneID="aFs-cK-NTz">
+            <objects>
+                <viewController id="uum-e9-hXD" customClass="NewsFeedViewController" customModule="week5_homework_facebook_photos" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k4Z-TQ-WEr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="nav" id="B0x-lW-OFk">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="eFi-SK-BsQ">
+                                <rect key="frame" x="0.0" y="64" width="320" height="1536"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="compose" id="kIw-gc-rPq">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="home_feed" id="693-QX-oD6">
+                                        <rect key="frame" x="0.0" y="46" width="320" height="1438"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1bd-nF-5F9"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="1536"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Bj-M9-SsJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="554" y="-1503"/>
+        </scene>
+        <!--Thrillist Details View Controller-->
+        <scene sceneID="qAy-ga-xyY">
+            <objects>
+                <viewController id="tNR-GU-UW1" customClass="ThrillistDetailsViewController" customModule="week5_homework_facebook_photos" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v9d-XU-xes">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GoN-9X-NQl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="956" y="-1201"/>
+        </scene>
+        <!--Check In View View Controller-->
+        <scene sceneID="ISl-bt-bcS">
+            <objects>
+                <viewController id="oy0-PI-uCc" customClass="CheckInViewViewController" customModule="week5_homework_facebook_photos" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RcF-a7-DWK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZUg-Yz-ibA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="956" y="-1987"/>
+        </scene>
+        <!--Photo View Controller-->
+        <scene sceneID="L4e-Mv-RUS">
+            <objects>
+                <viewController id="LeO-DC-1MR" customClass="PhotoViewController" customModule="week5_homework_facebook_photos" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oab-jO-ljW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tuY-no-3Kl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1396" y="-1987"/>
+        </scene>
+        <!--Status View Controller-->
+        <scene sceneID="JB1-16-oRn">
+            <objects>
+                <viewController id="P4i-aN-uBK" customClass="StatusViewController" customModule="week5_homework_facebook_photos" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nc1-Sr-lQr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BYN-3E-MBg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1830" y="-1987"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Waf-LG-cM3">
+            <objects>
+                <tabBarController id="3mj-af-86w" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="yv8-rH-NBl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ffV-A4-01B" kind="relationship" relationship="viewControllers" id="UER-OU-78V"/>
+                        <segue destination="Lym-uW-63G" kind="relationship" relationship="viewControllers" id="Z7d-Cc-wRb"/>
+                        <segue destination="lVO-XU-Xhs" kind="relationship" relationship="viewControllers" id="8W3-tR-2ow"/>
+                        <segue destination="TiQ-Or-y7H" kind="relationship" relationship="viewControllers" id="8Wp-Rn-NnN"/>
+                        <segue destination="mSE-OH-5oI" kind="relationship" relationship="viewControllers" id="Iy3-F7-V4c"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8AZ-t3-Ety" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-726" y="371"/>
+        </scene>
+        <!--News Feed-->
+        <scene sceneID="nLF-Xb-8oX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="ffV-A4-01B" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="News Feed" image="feed_tab" id="76X-IV-u3q"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RGW-LD-rbL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uum-e9-hXD" kind="relationship" relationship="rootViewController" id="kGg-ni-76z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rch-dT-8rk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22" y="-1987"/>
+        </scene>
+        <!--Requests-->
+        <scene sceneID="ejm-9b-qx4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Lym-uW-63G" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Requests" image="requests_tab" id="DMy-1V-Lby"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oH1-CS-ON9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="znU-Ws-q9L" kind="relationship" relationship="rootViewController" id="PSG-Rr-5mQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6So-t7-uUK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22" y="-292"/>
+        </scene>
+        <!--Messages View Controller-->
+        <scene sceneID="p6C-bl-v5E">
+            <objects>
+                <viewController id="VIg-Uk-UaA" customClass="MessagesViewController" customModule="week5_homework_facebook_photos" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Csp-hW-1GI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DB6-rT-OrQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jaJ-L0-WUM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="554" y="371"/>
+        </scene>
+        <!--Messages-->
+        <scene sceneID="gPj-lI-lXi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="lVO-XU-Xhs" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Messages" image="messages_tab" id="gTt-nt-MNE"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NoS-pm-xTl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VIg-Uk-UaA" kind="relationship" relationship="rootViewController" id="Vsv-xi-g0o"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f80-Ef-Z3X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22" y="371"/>
+        </scene>
+        <!--Notifications View Controller-->
+        <scene sceneID="cEJ-Wk-8sp">
+            <objects>
+                <viewController id="sAU-xt-ZOS" customClass="NotificationsViewController" customModule="week5_homework_facebook_photos" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BRC-tj-zF3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Exw-2g-AWn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CeY-KD-Tth" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="554" y="1087"/>
+        </scene>
+        <!--Notifications-->
+        <scene sceneID="Z5E-Ml-z0Y">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="TiQ-Or-y7H" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Notifications" image="notifications_tab" id="FnR-0B-Fma"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="A4i-Q0-ezG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sAU-xt-ZOS" kind="relationship" relationship="rootViewController" id="sRB-r0-XIC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XrC-Oz-9d2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22" y="1087"/>
+        </scene>
+        <!--More View Controller-->
+        <scene sceneID="Sud-v0-s7o">
+            <objects>
+                <viewController id="510-vB-Vm8" customClass="MoreViewController" customModule="week5_homework_facebook_photos" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e1R-q0-Nih">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wal-Fb-4pi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nyU-TP-x21" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="554" y="1759"/>
+        </scene>
+        <!--More-->
+        <scene sceneID="aW6-Ab-wcZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="mSE-OH-5oI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="More" image="more_tab" id="qoG-em-DjO"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RDZ-NB-xQj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="510-vB-Vm8" kind="relationship" relationship="rootViewController" id="5Sj-6y-eAs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K8H-XQ-ieU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22" y="1759"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="compose" width="320" height="46"/>
+        <image name="feed_tab" width="27" height="27"/>
+        <image name="home_feed" width="320" height="1438"/>
+        <image name="messages_tab" width="27" height="27"/>
+        <image name="more_tab" width="27" height="27"/>
+        <image name="nav" width="320" height="64"/>
+        <image name="notifications_tab" width="27" height="27"/>
+        <image name="requests_tab" width="27" height="27"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <color key="tintColor" red="0.23220673203468323" green="0.55344182252883911" blue="0.73537421226501465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>
