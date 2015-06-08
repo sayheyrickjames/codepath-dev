@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC0990431B250DA800821252 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0990401B250DA800821252 /* BaseTransition.swift */; };
+		BC0990441B250DA800821252 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0990411B250DA800821252 /* FadeTransition.swift */; };
+		BC0990471B251E2300821252 /* PhotoUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0990461B251E2300821252 /* PhotoUploadViewController.swift */; };
 		BC98324D1B22D271006B474E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98324C1B22D271006B474E /* AppDelegate.swift */; };
 		BC98324F1B22D271006B474E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98324E1B22D271006B474E /* ViewController.swift */; };
 		BC9832521B22D271006B474E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9832501B22D271006B474E /* Main.storyboard */; };
@@ -22,6 +25,7 @@
 		BC98327A1B22D36B006B474E /* CheckInViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9832791B22D36B006B474E /* CheckInViewViewController.swift */; };
 		BC98327C1B22D380006B474E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98327B1B22D380006B474E /* PhotoViewController.swift */; };
 		BC98327E1B22D398006B474E /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98327D1B22D398006B474E /* StatusViewController.swift */; };
+		BCD1826B1B254B810006A663 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1826A1B254B810006A663 /* ImageTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC0990401B250DA800821252 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		BC0990411B250DA800821252 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		BC0990461B251E2300821252 /* PhotoUploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoUploadViewController.swift; sourceTree = "<group>"; };
 		BC9832471B22D270006B474E /* week5-homework-facebook-photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "week5-homework-facebook-photos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC98324B1B22D270006B474E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC98324C1B22D271006B474E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +61,7 @@
 		BC9832791B22D36B006B474E /* CheckInViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewViewController.swift; sourceTree = "<group>"; };
 		BC98327B1B22D380006B474E /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		BC98327D1B22D398006B474E /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		BCD1826A1B254B810006A663 /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC09903F1B250D7100821252 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				BC0990401B250DA800821252 /* BaseTransition.swift */,
+				BC0990411B250DA800821252 /* FadeTransition.swift */,
+				BCD1826A1B254B810006A663 /* ImageTransition.swift */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
 		BC98323E1B22D270006B474E = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				BC98324C1B22D271006B474E /* AppDelegate.swift */,
+				BC09903F1B250D7100821252 /* Transitions */,
 				BC98326C1B22D288006B474E /* View Controllers */,
 				BC9832501B22D271006B474E /* Main.storyboard */,
 				BC9832531B22D271006B474E /* Images.xcassets */,
@@ -143,6 +162,7 @@
 				BC9832791B22D36B006B474E /* CheckInViewViewController.swift */,
 				BC98327B1B22D380006B474E /* PhotoViewController.swift */,
 				BC98327D1B22D398006B474E /* StatusViewController.swift */,
+				BC0990461B251E2300821252 /* PhotoUploadViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -248,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9832761B22D33A006B474E /* MoreViewController.swift in Sources */,
+				BCD1826B1B254B810006A663 /* ImageTransition.swift in Sources */,
+				BC0990431B250DA800821252 /* BaseTransition.swift in Sources */,
 				BC9832721B22D30E006B474E /* MessagesViewController.swift in Sources */,
 				BC98324F1B22D271006B474E /* ViewController.swift in Sources */,
 				BC9832781B22D352006B474E /* ThrillistDetailsViewController.swift in Sources */,
@@ -256,7 +278,9 @@
 				BC98327A1B22D36B006B474E /* CheckInViewViewController.swift in Sources */,
 				BC9832701B22D2F5006B474E /* RequestsViewController.swift in Sources */,
 				BC98326E1B22D2A7006B474E /* NewsFeedViewController.swift in Sources */,
+				BC0990471B251E2300821252 /* PhotoUploadViewController.swift in Sources */,
 				BC98327E1B22D398006B474E /* StatusViewController.swift in Sources */,
+				BC0990441B250DA800821252 /* FadeTransition.swift in Sources */,
 				BC98327C1B22D380006B474E /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,6 +477,7 @@
 				BC9832681B22D271006B474E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC9832691B22D271006B474E /* Build configuration list for PBXNativeTarget "week5-homework-facebook-photosTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +486,7 @@
 				BC98326B1B22D271006B474E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F9857F77-554A-42C4-8E8C-0469899F9D27</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>week5-homework-facebook-photos</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7A305C1D8F24FA943974B86070B784F6E675327A</key>
 		<string>https://github.com/sayheyrickjames/codepath-dev.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>week5/week5-homework-facebook-photos/week5-homework-facebook-photos.xcodeproj/project.xcworkspace</string>
+	<string>week5/week5-homework-facebook-photos/week5-homework-facebook-photos.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7A305C1D8F24FA943974B86070B784F6E675327A</key>
