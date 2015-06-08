@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0990431B250DA800821252 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0990401B250DA800821252 /* BaseTransition.swift */; };
+		BC0990441B250DA800821252 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0990411B250DA800821252 /* FadeTransition.swift */; };
+		BC0990471B251E2300821252 /* PhotoUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0990461B251E2300821252 /* PhotoUploadViewController.swift */; };
+		BC98324D1B22D271006B474E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98324C1B22D271006B474E /* AppDelegate.swift */; };
+		BC98324F1B22D271006B474E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98324E1B22D271006B474E /* ViewController.swift */; };
+		BC9832521B22D271006B474E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9832501B22D271006B474E /* Main.storyboard */; };
+		BC9832541B22D271006B474E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9832531B22D271006B474E /* Images.xcassets */; };
+		BC9832571B22D271006B474E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC9832551B22D271006B474E /* LaunchScreen.xib */; };
+		BC9832631B22D271006B474E /* week5_homework_facebook_photosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9832621B22D271006B474E /* week5_homework_facebook_photosTests.swift */; };
+		BC98326E1B22D2A7006B474E /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98326D1B22D2A7006B474E /* NewsFeedViewController.swift */; };
+		BC9832701B22D2F5006B474E /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98326F1B22D2F5006B474E /* RequestsViewController.swift */; };
+		BC9832721B22D30E006B474E /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9832711B22D30E006B474E /* MessagesViewController.swift */; };
+		BC9832741B22D32A006B474E /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9832731B22D32A006B474E /* NotificationsViewController.swift */; };
+		BC9832761B22D33A006B474E /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9832751B22D33A006B474E /* MoreViewController.swift */; };
+		BC9832781B22D352006B474E /* ThrillistDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9832771B22D352006B474E /* ThrillistDetailsViewController.swift */; };
+		BC98327A1B22D36B006B474E /* CheckInViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9832791B22D36B006B474E /* CheckInViewViewController.swift */; };
+		BC98327C1B22D380006B474E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98327B1B22D380006B474E /* PhotoViewController.swift */; };
+		BC98327E1B22D398006B474E /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98327D1B22D398006B474E /* StatusViewController.swift */; };
+		BCD1826B1B254B810006A663 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1826A1B254B810006A663 /* ImageTransition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC98325D1B22D271006B474E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC98323F1B22D270006B474E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9832461B22D270006B474E;
+			remoteInfo = "week5-homework-facebook-photos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC0990401B250DA800821252 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		BC0990411B250DA800821252 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		BC0990461B251E2300821252 /* PhotoUploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoUploadViewController.swift; sourceTree = "<group>"; };
+		BC9832471B22D270006B474E /* week5-homework-facebook-photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "week5-homework-facebook-photos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC98324B1B22D270006B474E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC98324C1B22D271006B474E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC98324E1B22D271006B474E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC9832511B22D271006B474E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC9832531B22D271006B474E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC9832561B22D271006B474E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC98325C1B22D271006B474E /* week5-homework-facebook-photosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "week5-homework-facebook-photosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9832611B22D271006B474E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9832621B22D271006B474E /* week5_homework_facebook_photosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week5_homework_facebook_photosTests.swift; sourceTree = "<group>"; };
+		BC98326D1B22D2A7006B474E /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		BC98326F1B22D2F5006B474E /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		BC9832711B22D30E006B474E /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		BC9832731B22D32A006B474E /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		BC9832751B22D33A006B474E /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		BC9832771B22D352006B474E /* ThrillistDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillistDetailsViewController.swift; sourceTree = "<group>"; };
+		BC9832791B22D36B006B474E /* CheckInViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewViewController.swift; sourceTree = "<group>"; };
+		BC98327B1B22D380006B474E /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		BC98327D1B22D398006B474E /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		BCD1826A1B254B810006A663 /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC9832441B22D270006B474E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9832591B22D271006B474E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC09903F1B250D7100821252 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				BC0990401B250DA800821252 /* BaseTransition.swift */,
+				BC0990411B250DA800821252 /* FadeTransition.swift */,
+				BCD1826A1B254B810006A663 /* ImageTransition.swift */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
+		BC98323E1B22D270006B474E = {
+			isa = PBXGroup;
+			children = (
+				BC9832491B22D270006B474E /* week5-homework-facebook-photos */,
+				BC98325F1B22D271006B474E /* week5-homework-facebook-photosTests */,
+				BC9832481B22D270006B474E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC9832481B22D270006B474E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC9832471B22D270006B474E /* week5-homework-facebook-photos.app */,
+				BC98325C1B22D271006B474E /* week5-homework-facebook-photosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC9832491B22D270006B474E /* week5-homework-facebook-photos */ = {
+			isa = PBXGroup;
+			children = (
+				BC98324C1B22D271006B474E /* AppDelegate.swift */,
+				BC09903F1B250D7100821252 /* Transitions */,
+				BC98326C1B22D288006B474E /* View Controllers */,
+				BC9832501B22D271006B474E /* Main.storyboard */,
+				BC9832531B22D271006B474E /* Images.xcassets */,
+				BC9832551B22D271006B474E /* LaunchScreen.xib */,
+				BC98324A1B22D270006B474E /* Supporting Files */,
+			);
+			path = "week5-homework-facebook-photos";
+			sourceTree = "<group>";
+		};
+		BC98324A1B22D270006B474E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC98324B1B22D270006B474E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC98325F1B22D271006B474E /* week5-homework-facebook-photosTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC9832621B22D271006B474E /* week5_homework_facebook_photosTests.swift */,
+				BC9832601B22D271006B474E /* Supporting Files */,
+			);
+			path = "week5-homework-facebook-photosTests";
+			sourceTree = "<group>";
+		};
+		BC9832601B22D271006B474E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC9832611B22D271006B474E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC98326C1B22D288006B474E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC98324E1B22D271006B474E /* ViewController.swift */,
+				BC98326D1B22D2A7006B474E /* NewsFeedViewController.swift */,
+				BC98326F1B22D2F5006B474E /* RequestsViewController.swift */,
+				BC9832711B22D30E006B474E /* MessagesViewController.swift */,
+				BC9832731B22D32A006B474E /* NotificationsViewController.swift */,
+				BC9832751B22D33A006B474E /* MoreViewController.swift */,
+				BC9832771B22D352006B474E /* ThrillistDetailsViewController.swift */,
+				BC9832791B22D36B006B474E /* CheckInViewViewController.swift */,
+				BC98327B1B22D380006B474E /* PhotoViewController.swift */,
+				BC98327D1B22D398006B474E /* StatusViewController.swift */,
+				BC0990461B251E2300821252 /* PhotoUploadViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC9832461B22D270006B474E /* week5-homework-facebook-photos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9832661B22D271006B474E /* Build configuration list for PBXNativeTarget "week5-homework-facebook-photos" */;
+			buildPhases = (
+				BC9832431B22D270006B474E /* Sources */,
+				BC9832441B22D270006B474E /* Frameworks */,
+				BC9832451B22D270006B474E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "week5-homework-facebook-photos";
+			productName = "week5-homework-facebook-photos";
+			productReference = BC9832471B22D270006B474E /* week5-homework-facebook-photos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC98325B1B22D271006B474E /* week5-homework-facebook-photosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9832691B22D271006B474E /* Build configuration list for PBXNativeTarget "week5-homework-facebook-photosTests" */;
+			buildPhases = (
+				BC9832581B22D271006B474E /* Sources */,
+				BC9832591B22D271006B474E /* Frameworks */,
+				BC98325A1B22D271006B474E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC98325E1B22D271006B474E /* PBXTargetDependency */,
+			);
+			name = "week5-homework-facebook-photosTests";
+			productName = "week5-homework-facebook-photosTests";
+			productReference = BC98325C1B22D271006B474E /* week5-homework-facebook-photosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC98323F1B22D270006B474E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = SayHey;
+				TargetAttributes = {
+					BC9832461B22D270006B474E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					BC98325B1B22D271006B474E = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = BC9832461B22D270006B474E;
+					};
+				};
+			};
+			buildConfigurationList = BC9832421B22D270006B474E /* Build configuration list for PBXProject "week5-homework-facebook-photos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC98323E1B22D270006B474E;
+			productRefGroup = BC9832481B22D270006B474E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC9832461B22D270006B474E /* week5-homework-facebook-photos */,
+				BC98325B1B22D271006B474E /* week5-homework-facebook-photosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC9832451B22D270006B474E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9832521B22D271006B474E /* Main.storyboard in Resources */,
+				BC9832571B22D271006B474E /* LaunchScreen.xib in Resources */,
+				BC9832541B22D271006B474E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC98325A1B22D271006B474E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC9832431B22D270006B474E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9832761B22D33A006B474E /* MoreViewController.swift in Sources */,
+				BCD1826B1B254B810006A663 /* ImageTransition.swift in Sources */,
+				BC0990431B250DA800821252 /* BaseTransition.swift in Sources */,
+				BC9832721B22D30E006B474E /* MessagesViewController.swift in Sources */,
+				BC98324F1B22D271006B474E /* ViewController.swift in Sources */,
+				BC9832781B22D352006B474E /* ThrillistDetailsViewController.swift in Sources */,
+				BC98324D1B22D271006B474E /* AppDelegate.swift in Sources */,
+				BC9832741B22D32A006B474E /* NotificationsViewController.swift in Sources */,
+				BC98327A1B22D36B006B474E /* CheckInViewViewController.swift in Sources */,
+				BC9832701B22D2F5006B474E /* RequestsViewController.swift in Sources */,
+				BC98326E1B22D2A7006B474E /* NewsFeedViewController.swift in Sources */,
+				BC0990471B251E2300821252 /* PhotoUploadViewController.swift in Sources */,
+				BC98327E1B22D398006B474E /* StatusViewController.swift in Sources */,
+				BC0990441B250DA800821252 /* FadeTransition.swift in Sources */,
+				BC98327C1B22D380006B474E /* PhotoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9832581B22D271006B474E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9832631B22D271006B474E /* week5_homework_facebook_photosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC98325E1B22D271006B474E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC9832461B22D270006B474E /* week5-homework-facebook-photos */;
+			targetProxy = BC98325D1B22D271006B474E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC9832501B22D271006B474E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9832511B22D271006B474E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC9832551B22D271006B474E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9832561B22D271006B474E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC9832641B22D271006B474E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC9832651B22D271006B474E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC9832671B22D271006B474E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "week5-homework-facebook-photos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC9832681B22D271006B474E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "week5-homework-facebook-photos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC98326A1B22D271006B474E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "week5-homework-facebook-photosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/week5-homework-facebook-photos.app/week5-homework-facebook-photos";
+			};
+			name = Debug;
+		};
+		BC98326B1B22D271006B474E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "week5-homework-facebook-photosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/week5-homework-facebook-photos.app/week5-homework-facebook-photos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC9832421B22D270006B474E /* Build configuration list for PBXProject "week5-homework-facebook-photos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9832641B22D271006B474E /* Debug */,
+				BC9832651B22D271006B474E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9832661B22D271006B474E /* Build configuration list for PBXNativeTarget "week5-homework-facebook-photos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9832671B22D271006B474E /* Debug */,
+				BC9832681B22D271006B474E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9832691B22D271006B474E /* Build configuration list for PBXNativeTarget "week5-homework-facebook-photosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC98326A1B22D271006B474E /* Debug */,
+				BC98326B1B22D271006B474E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC98323F1B22D270006B474E /* Project object */;
+}
