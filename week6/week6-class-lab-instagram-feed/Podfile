@@ -3,6 +3,8 @@
 
 target 'week6-class-lab-instagram-feed' do
 
+pod 'AFNetworking', '2.2.1'
+
 end
 
 target 'week6-class-lab-instagram-feedTests' do
