@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53C526742CE62FB9F18C7E3E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F3B0FDC8B6E70EA295182C /* libPods.a */; };
+		BC498CB21B2FD2C800C2E625 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC498CB11B2FD2C800C2E625 /* LoginViewController.swift */; };
+		BC498CB41B2FD7AD00C2E625 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC498CB31B2FD7AD00C2E625 /* ChatViewController.swift */; };
+		BCCB14831B2FCC47009F688F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB14821B2FCC47009F688F /* AppDelegate.swift */; };
+		BCCB14851B2FCC47009F688F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB14841B2FCC47009F688F /* ViewController.swift */; };
+		BCCB14881B2FCC47009F688F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCB14861B2FCC47009F688F /* Main.storyboard */; };
+		BCCB148A1B2FCC47009F688F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCB14891B2FCC47009F688F /* Images.xcassets */; };
+		BCCB148D1B2FCC47009F688F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCB148B1B2FCC47009F688F /* LaunchScreen.xib */; };
+		BCCB14991B2FCC47009F688F /* week7_lab_chatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB14981B2FCC47009F688F /* week7_lab_chatTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCCB14931B2FCC47009F688F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCCB14751B2FCC46009F688F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCCB147C1B2FCC46009F688F;
+			remoteInfo = "week7-lab-chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D625781259D166F1C2A4FAF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		44F3B0FDC8B6E70EA295182C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B605BB240F71FB3BA43C2D2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BC498CAE1B2FD12E00C2E625 /* week7-lab-chat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "week7-lab-chat-Bridging-Header.h"; sourceTree = "<group>"; };
+		BC498CB11B2FD2C800C2E625 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BC498CB31B2FD7AD00C2E625 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BCCB147D1B2FCC47009F688F /* week7-lab-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "week7-lab-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCB14811B2FCC47009F688F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCB14821B2FCC47009F688F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCCB14841B2FCC47009F688F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCCB14871B2FCC47009F688F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCCB14891B2FCC47009F688F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCCB148C1B2FCC47009F688F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCCB14921B2FCC47009F688F /* week7-lab-chatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "week7-lab-chatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCB14971B2FCC47009F688F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCB14981B2FCC47009F688F /* week7_lab_chatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week7_lab_chatTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCCB147A1B2FCC46009F688F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C526742CE62FB9F18C7E3E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCB148F1B2FCC47009F688F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EB1E4A1EE32B62934CA8CDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B605BB240F71FB3BA43C2D2 /* Pods.debug.xcconfig */,
+				1D625781259D166F1C2A4FAF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B659A77212CC1B3E20EA7B87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44F3B0FDC8B6E70EA295182C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCCB14741B2FCC46009F688F = {
+			isa = PBXGroup;
+			children = (
+				BCCB147F1B2FCC47009F688F /* week7-lab-chat */,
+				BCCB14951B2FCC47009F688F /* week7-lab-chatTests */,
+				BCCB147E1B2FCC47009F688F /* Products */,
+				0EB1E4A1EE32B62934CA8CDC /* Pods */,
+				B659A77212CC1B3E20EA7B87 /* Frameworks */,
+				BC498CAE1B2FD12E00C2E625 /* week7-lab-chat-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		BCCB147E1B2FCC47009F688F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB147D1B2FCC47009F688F /* week7-lab-chat.app */,
+				BCCB14921B2FCC47009F688F /* week7-lab-chatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCCB147F1B2FCC47009F688F /* week7-lab-chat */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB14821B2FCC47009F688F /* AppDelegate.swift */,
+				BCCB14841B2FCC47009F688F /* ViewController.swift */,
+				BCCB14861B2FCC47009F688F /* Main.storyboard */,
+				BCCB14891B2FCC47009F688F /* Images.xcassets */,
+				BCCB148B1B2FCC47009F688F /* LaunchScreen.xib */,
+				BCCB14801B2FCC47009F688F /* Supporting Files */,
+				BC498CB11B2FD2C800C2E625 /* LoginViewController.swift */,
+				BC498CB31B2FD7AD00C2E625 /* ChatViewController.swift */,
+			);
+			path = "week7-lab-chat";
+			sourceTree = "<group>";
+		};
+		BCCB14801B2FCC47009F688F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB14811B2FCC47009F688F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCCB14951B2FCC47009F688F /* week7-lab-chatTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB14981B2FCC47009F688F /* week7_lab_chatTests.swift */,
+				BCCB14961B2FCC47009F688F /* Supporting Files */,
+			);
+			path = "week7-lab-chatTests";
+			sourceTree = "<group>";
+		};
+		BCCB14961B2FCC47009F688F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB14971B2FCC47009F688F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCCB147C1B2FCC46009F688F /* week7-lab-chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCB149C1B2FCC47009F688F /* Build configuration list for PBXNativeTarget "week7-lab-chat" */;
+			buildPhases = (
+				E0B65B52FA338BBAC2E05AE1 /* Check Pods Manifest.lock */,
+				BCCB14791B2FCC46009F688F /* Sources */,
+				BCCB147A1B2FCC46009F688F /* Frameworks */,
+				BCCB147B1B2FCC46009F688F /* Resources */,
+				EA0AC5000BF99A61BA50EF9B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "week7-lab-chat";
+			productName = "week7-lab-chat";
+			productReference = BCCB147D1B2FCC47009F688F /* week7-lab-chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCCB14911B2FCC47009F688F /* week7-lab-chatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCB149F1B2FCC47009F688F /* Build configuration list for PBXNativeTarget "week7-lab-chatTests" */;
+			buildPhases = (
+				BCCB148E1B2FCC47009F688F /* Sources */,
+				BCCB148F1B2FCC47009F688F /* Frameworks */,
+				BCCB14901B2FCC47009F688F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCCB14941B2FCC47009F688F /* PBXTargetDependency */,
+			);
+			name = "week7-lab-chatTests";
+			productName = "week7-lab-chatTests";
+			productReference = BCCB14921B2FCC47009F688F /* week7-lab-chatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCCB14751B2FCC46009F688F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = SayHey;
+				TargetAttributes = {
+					BCCB147C1B2FCC46009F688F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					BCCB14911B2FCC47009F688F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = BCCB147C1B2FCC46009F688F;
+					};
+				};
+			};
+			buildConfigurationList = BCCB14781B2FCC46009F688F /* Build configuration list for PBXProject "week7-lab-chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCCB14741B2FCC46009F688F;
+			productRefGroup = BCCB147E1B2FCC47009F688F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCCB147C1B2FCC46009F688F /* week7-lab-chat */,
+				BCCB14911B2FCC47009F688F /* week7-lab-chatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCCB147B1B2FCC46009F688F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCB14881B2FCC47009F688F /* Main.storyboard in Resources */,
+				BCCB148D1B2FCC47009F688F /* LaunchScreen.xib in Resources */,
+				BCCB148A1B2FCC47009F688F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCB14901B2FCC47009F688F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0B65B52FA338BBAC2E05AE1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0AC5000BF99A61BA50EF9B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCCB14791B2FCC46009F688F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC498CB21B2FD2C800C2E625 /* LoginViewController.swift in Sources */,
+				BCCB14851B2FCC47009F688F /* ViewController.swift in Sources */,
+				BC498CB41B2FD7AD00C2E625 /* ChatViewController.swift in Sources */,
+				BCCB14831B2FCC47009F688F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCB148E1B2FCC47009F688F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCB14991B2FCC47009F688F /* week7_lab_chatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCCB14941B2FCC47009F688F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCCB147C1B2FCC46009F688F /* week7-lab-chat */;
+			targetProxy = BCCB14931B2FCC47009F688F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCCB14861B2FCC47009F688F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCB14871B2FCC47009F688F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCCB148B1B2FCC47009F688F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCB148C1B2FCC47009F688F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCCB149A1B2FCC47009F688F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCCB149B1B2FCC47009F688F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCCB149D1B2FCC47009F688F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B605BB240F71FB3BA43C2D2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "week7-lab-chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "week7-lab-chat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCCB149E1B2FCC47009F688F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D625781259D166F1C2A4FAF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "week7-lab-chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "week7-lab-chat-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		BCCB14A01B2FCC47009F688F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "week7-lab-chatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/week7-lab-chat.app/week7-lab-chat";
+			};
+			name = Debug;
+		};
+		BCCB14A11B2FCC47009F688F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "week7-lab-chatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/week7-lab-chat.app/week7-lab-chat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCCB14781B2FCC46009F688F /* Build configuration list for PBXProject "week7-lab-chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCB149A1B2FCC47009F688F /* Debug */,
+				BCCB149B1B2FCC47009F688F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCB149C1B2FCC47009F688F /* Build configuration list for PBXNativeTarget "week7-lab-chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCB149D1B2FCC47009F688F /* Debug */,
+				BCCB149E1B2FCC47009F688F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCB149F1B2FCC47009F688F /* Build configuration list for PBXNativeTarget "week7-lab-chatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCB14A01B2FCC47009F688F /* Debug */,
+				BCCB14A11B2FCC47009F688F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCCB14751B2FCC46009F688F /* Project object */;
+}
